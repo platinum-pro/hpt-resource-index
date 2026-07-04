@@ -97,8 +97,70 @@
       ]));
     });
 
+    renderYearTrend(data, "trend-year");
     renderBreakdown(data, "commodity_domain", "breakdown-domain");
     renderBreakdown(data, "demand_model", "breakdown-model");
+  }
+
+  // First published HPT study (Jacobs & Bickel, 1999) — always anchor the
+  // trend here even if the earliest coded study is more recent, so the
+  // chart reads as "since the method existed," not "since we started coding."
+  var HPT_ORIGIN_YEAR = 1999;
+
+  function renderYearTrend(data, mountId) {
+    var mount = document.getElementById(mountId);
+    if (!mount) return;
+
+    var counts = {};
+    data.forEach(function (row) {
+      if (row.year) counts[row.year] = (counts[row.year] || 0) + 1;
+    });
+    var years = Object.keys(counts).map(Number);
+    if (years.length === 0) {
+      mount.innerHTML = "";
+      return;
+    }
+
+    var minYear = Math.min(HPT_ORIGIN_YEAR, Math.min.apply(null, years));
+    var maxYear = Math.max.apply(null, years);
+    var series = [];
+    for (var y = minYear; y <= maxYear; y++) {
+      series.push([y, counts[y] || 0]);
+    }
+    var maxCount = series.reduce(function (m, p) { return Math.max(m, p[1]); }, 1);
+
+    var w = 760, h = 220, padL = 24, padR = 12, padT = 12, padB = 26;
+    var innerW = w - padL - padR, innerH = h - padT - padB;
+    var stepX = series.length > 1 ? innerW / (series.length - 1) : 0;
+
+    function px(i) { return padL + i * stepX; }
+    function py(v) { return padT + innerH - (v / maxCount) * innerH; }
+
+    var linePoints = series.map(function (p, i) { return px(i) + "," + py(p[1]); }).join(" ");
+    var areaPoints = linePoints +
+      " " + px(series.length - 1) + "," + (padT + innerH) +
+      " " + px(0) + "," + (padT + innerH);
+
+    var tickEvery = Math.max(1, Math.ceil(series.length / 10));
+    var ticks = series
+      .map(function (p, i) { return { i: i, year: p[0] }; })
+      .filter(function (t) { return t.i % tickEvery === 0 || t.i === series.length - 1; });
+
+    var dots = series.map(function (p, i) {
+      return '<circle cx="' + px(i) + '" cy="' + py(p[1]) + '" r="2.5" class="trend-dot">' +
+        "<title>" + p[0] + ": " + p[1] + " " + (p[1] === 1 ? "study" : "studies") + "</title></circle>";
+    }).join("");
+
+    var tickLabels = ticks.map(function (t) {
+      return '<text x="' + px(t.i) + '" y="' + (h - 6) + '" class="trend-tick" text-anchor="middle">' + t.year + "</text>";
+    }).join("");
+
+    mount.innerHTML =
+      '<svg viewBox="0 0 ' + w + " " + h + '" class="trend-chart" preserveAspectRatio="none">' +
+      '<polygon points="' + areaPoints + '" class="trend-area"></polygon>' +
+      '<polyline points="' + linePoints + '" class="trend-line"></polyline>' +
+      dots + tickLabels +
+      "</svg>";
   }
 
   function renderBreakdown(data, key, mountId) {
