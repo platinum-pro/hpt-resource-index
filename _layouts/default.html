@@ -6,11 +6,17 @@
   <title>{{ page.title }}{% if page.title %} · {% endif %}{{ site.title }}</title>
   <meta name="description" content="{{ site.description }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/favicon-32.png' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="192x192" href="{{ '/assets/images/favicon-192.png' | relative_url }}">
+  <link rel="apple-touch-icon" href="{{ '/assets/images/apple-touch-icon.png' | relative_url }}">
 </head>
 <body data-baseurl="{{ site.baseurl }}">
   <header class="site-header">
     <div class="wrap">
-      <a class="brand" href="{{ '/' | relative_url }}">HPT Resource Index</a>
+      <a class="brand" href="{{ '/' | relative_url }}">
+        <img src="{{ '/assets/images/promise-labs-header.png' | relative_url }}" alt="PROMISE Labs Africa" class="brand-logo">
+        <span>HPT Resource Index</span>
+      </a>
       <nav>
         <a href="{{ '/' | relative_url }}">Home</a>
         <a href="{{ '/explore.html' | relative_url }}">Explore</a>
@@ -26,7 +32,9 @@
 
   <footer class="site-footer">
     <div class="wrap">
-      <p>HPT Resource Index &middot; maintained by Promise Tewogbola &middot; data updated periodically as studies are coded</p>
+      <p>HPT Resource Index &middot; a project of
+        <a href="https://promiselabs.africa/" target="_blank" rel="noopener">PROMISE Labs Africa</a>
+        &middot; maintained by Promise Tewogbola &middot; data updated periodically as studies are coded</p>
     </div>
   </footer>
 

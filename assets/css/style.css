@@ -36,10 +36,19 @@ body {
 }
 
 .brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   font-weight: 700;
   font-size: 1.1rem;
   color: var(--ink);
   text-decoration: none;
+}
+
+.brand-logo {
+  height: 32px;
+  width: auto;
+  display: block;
 }
 
 .site-header nav a {
@@ -194,6 +203,22 @@ code {
 .bar-fill {
   background: var(--accent);
   height: 100%;
+}
+
+.org-card {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 20px;
+  background: var(--bg-soft);
+  max-width: 65ch;
+}
+
+.org-logo {
+  max-width: 260px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 16px;
 }
 
 .banner-sample {
