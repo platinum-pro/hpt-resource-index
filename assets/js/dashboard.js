@@ -289,9 +289,31 @@
     });
   }
 
+  // ---- Nav toggle (mobile hamburger) --------------------------------------
+
+  function initNavToggle() {
+    var toggle = document.getElementById("nav-toggle");
+    var nav = document.getElementById("site-nav");
+    if (!toggle || !nav) return;
+
+    toggle.addEventListener("click", function () {
+      var isOpen = nav.classList.toggle("nav-open");
+      toggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+    });
+
+    nav.addEventListener("click", function (e) {
+      if (e.target.tagName === "A") {
+        nav.classList.remove("nav-open");
+        toggle.setAttribute("aria-expanded", "false");
+      }
+    });
+  }
+
   // ---- Boot ---------------------------------------------------------------
 
   document.addEventListener("DOMContentLoaded", function () {
+    initNavToggle();
+
     var sampleBanner = document.getElementById("sample-banner");
     if (sampleBanner) sampleBanner.style.display = isSampleMode() ? "block" : "none";
 

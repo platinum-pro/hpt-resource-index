@@ -63,11 +63,47 @@ body {
 
 .site-header nav a:hover { color: var(--accent); }
 
+.nav-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.nav-toggle span {
+  display: block;
+  height: 2px;
+  width: 100%;
+  background: var(--ink);
+  border-radius: 1px;
+}
+
 @media (max-width: 640px) {
   .brand-logo { height: 22px; }
   .brand { font-size: 0.95rem; }
-  .site-header nav { width: 100%; }
-  .site-header nav a { margin-left: 0; margin-right: 16px; }
+
+  .nav-toggle { display: flex; }
+
+  .site-header nav {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .site-header nav.nav-open { display: flex; }
+
+  .site-header nav a {
+    margin-left: 0;
+    padding: 10px 0;
+    border-top: 1px solid var(--line);
+  }
 }
 
 main.wrap {
