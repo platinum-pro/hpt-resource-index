@@ -277,6 +277,21 @@ code {
   height: 100%;
 }
 
+.citation-block {
+  border-left: 3px solid var(--accent);
+  background: var(--bg-soft);
+  padding: 14px 18px;
+  margin: 0 0 12px;
+  max-width: 65ch;
+  font-size: 0.95rem;
+}
+
+.copy-feedback {
+  margin-left: 10px;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
 .org-card {
   border: 1px solid var(--line);
   border-radius: var(--radius);

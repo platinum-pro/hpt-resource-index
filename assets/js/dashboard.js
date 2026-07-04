@@ -289,6 +289,47 @@
     });
   }
 
+  // ---- Citation page -------------------------------------------------------
+
+  function initCitation() {
+    var dateSpan = document.getElementById("cite-date");
+    var copyBtn = document.getElementById("copy-citation");
+    var feedback = document.getElementById("copy-feedback");
+    if (!dateSpan || !copyBtn) return;
+
+    var today = new Date();
+    var formatted = today.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" });
+    dateSpan.textContent = formatted;
+
+    copyBtn.addEventListener("click", function () {
+      var citationEl = document.getElementById("citation-text");
+      var text = citationEl.textContent.replace(/\s+/g, " ").trim();
+
+      function showFeedback(message) {
+        if (!feedback) return;
+        feedback.textContent = message;
+        setTimeout(function () { feedback.textContent = ""; }, 2500);
+      }
+
+      function selectFallback() {
+        var range = document.createRange();
+        range.selectNodeContents(citationEl);
+        var selection = window.getSelection();
+        selection.removeAllRanges();
+        selection.addRange(range);
+        showFeedback("Couldn't auto-copy — text selected, press Ctrl/Cmd+C");
+      }
+
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(function () {
+          showFeedback("Copied!");
+        }).catch(selectFallback);
+      } else {
+        selectFallback();
+      }
+    });
+  }
+
   // ---- Nav toggle (mobile hamburger) --------------------------------------
 
   function initNavToggle() {
@@ -313,6 +354,7 @@
 
   document.addEventListener("DOMContentLoaded", function () {
     initNavToggle();
+    initCitation();
 
     var sampleBanner = document.getElementById("sample-banner");
     if (sampleBanner) sampleBanner.style.display = isSampleMode() ? "block" : "none";
