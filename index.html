@@ -1,0 +1,32 @@
+---
+layout: default
+title: Home
+---
+
+<h1>HPT Resource Index</h1>
+<p class="lede">
+  A public, searchable index of Hypothetical Purchase Task (HPT) demand studies —
+  covering study design, participants, price schedules, demand models, and the
+  behavioral economic indices each study reports.
+</p>
+
+<div id="sample-banner" class="banner-sample" style="display:none;">
+  Showing <strong>sample data</strong> for layout testing.
+  <a href="{{ '/' | relative_url }}">View real (currently empty) data</a>.
+</div>
+
+<div id="stat-grid" class="stat-grid"></div>
+
+<div id="empty-state" class="empty-state" style="display:none;">
+  <p><strong>No studies indexed yet.</strong> The coding scheme is finalized (see
+  <a href="{{ '/about.html' | relative_url }}">About</a>) and data collection is starting.
+  Check back soon, or <a href="{{ '/?sample=1' | relative_url }}">preview the dashboard with sample data</a>.</p>
+</div>
+
+<h2>By commodity domain</h2>
+<div id="breakdown-domain"></div>
+
+<h2>By demand model</h2>
+<div id="breakdown-model"></div>
+
+<p><a class="cta" href="{{ '/explore.html' | relative_url }}">Explore all studies →</a></p>

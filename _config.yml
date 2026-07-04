@@ -1,0 +1,15 @@
+title: HPT Resource Index
+description: >-
+  A public, searchable index of Hypothetical Purchase Task (HPT) demand studies —
+  study design, participants, price schedules, demand models, and reported indices.
+baseurl: ""
+url: ""
+
+markdown: kramdown
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - scripts
+  - "HPT Resource Index.xlsx"
+  - README.md

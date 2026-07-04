@@ -1,0 +1,33 @@
+---
+layout: default
+title: Explore
+---
+
+<h1>Explore studies</h1>
+<p class="lede">Filter and search the full index. Click a column header to sort.</p>
+
+<div id="sample-banner" class="banner-sample" style="display:none;">
+  Showing <strong>sample data</strong> for layout testing.
+  <a href="{{ '/explore.html' | relative_url }}">View real (currently empty) data</a>.
+</div>
+
+<div id="empty-state" class="empty-state" style="display:none;">
+  <p><strong>No studies indexed yet.</strong>
+  <a href="{{ '/explore.html' | relative_url }}?sample=1">Preview this page with sample data</a>.</p>
+</div>
+
+<div id="explore-root">
+  <div id="explore-controls">
+    <div class="filters">
+      <input type="search" id="search-box" placeholder="Search study ID, journal, commodity, population, country, notes…">
+      <div id="filter-controls" style="display:contents;"></div>
+    </div>
+    <div id="result-count" class="result-count"></div>
+    <div class="table-scroll">
+      <table class="data-table">
+        <thead id="table-head"></thead>
+        <tbody id="table-body"></tbody>
+      </table>
+    </div>
+  </div>
+</div>
