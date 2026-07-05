@@ -13,3 +13,5 @@ exclude:
   - scripts
   - "HPT Resource Index.xlsx"
   - README.md
+  - LICENSE
+  - LICENSE-DATA.md
