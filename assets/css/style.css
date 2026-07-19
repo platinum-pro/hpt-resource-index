@@ -308,6 +308,42 @@ code {
   margin-bottom: 16px;
 }
 
+.map-wrap {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--bg-soft);
+  padding: 12px;
+}
+
+.world-outline-svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.world-land {
+  fill: #e4e7ea;
+  stroke: var(--line);
+  stroke-width: 0.5;
+}
+
+.map-dot {
+  fill: var(--accent);
+  fill-opacity: 0.78;
+  stroke: #fff;
+  stroke-width: 1;
+}
+
+.map-dot:hover {
+  fill-opacity: 1;
+}
+
+.map-caption {
+  color: var(--muted);
+  font-size: 0.8rem;
+  margin-top: 8px;
+}
+
 .banner-sample {
   background: #fff6e0;
   border: 1px solid #f0d78c;

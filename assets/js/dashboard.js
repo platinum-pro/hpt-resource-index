@@ -34,9 +34,13 @@
     return /(?:\?|&)sample=1\b/.test(window.location.search);
   }
 
-  function dataUrl() {
+  function assetUrl(path) {
     var base = document.body.getAttribute("data-baseurl") || "";
-    return base + (isSampleMode() ? "/data/sample_data.json" : "/data/data.json");
+    return base + path;
+  }
+
+  function dataUrl() {
+    return assetUrl(isSampleMode() ? "/data/sample_data.json" : "/data/data.json");
   }
 
   function fetchData() {
@@ -100,6 +104,7 @@
     renderYearTrend(data, "trend-year");
     renderBreakdown(data, "commodity_domain", "breakdown-domain");
     renderBreakdown(data, "demand_model", "breakdown-model");
+    renderCountryMap(data, "country-map");
   }
 
   // First published HPT study (Jacobs & Bickel, 1999) — always anchor the
@@ -185,6 +190,120 @@
       row.appendChild(track);
       mount.appendChild(row);
     });
+  }
+
+  // ---- Country map (index page) ------------------------------------------
+
+  // Must match W/H in scripts/generate_world_map.py.
+  var WORLD_MAP_W = 980, WORLD_MAP_H = 500;
+
+  // Free-text variants RAs might type that don't match the generated
+  // centroid table's country names exactly.
+  var COUNTRY_ALIASES = {
+    "usa": "United States",
+    "us": "United States",
+    "u.s.": "United States",
+    "u.s.a.": "United States",
+    "united states of america": "United States",
+    "america": "United States",
+    "uk": "United Kingdom",
+    "u.k.": "United Kingdom",
+    "great britain": "United Kingdom",
+    "britain": "United Kingdom",
+    "england": "United Kingdom",
+    "scotland": "United Kingdom",
+    "wales": "United Kingdom",
+    "russia": "Russian Federation",
+    "ivory coast": "Côte d'Ivoire",
+    "czechia": "Czech Republic",
+    "burma": "Myanmar",
+    "democratic republic of congo": "Congo DRC",
+    "democratic republic of the congo": "Congo DRC",
+    "drc": "Congo DRC",
+    "dr congo": "Congo DRC",
+    "republic of the congo": "Congo",
+    "republic of korea": "South Korea",
+    "korea, south": "South Korea",
+    "korea, north": "North Korea",
+    "viet nam": "Vietnam",
+    "swaziland": "Eswatini",
+    "cape verde": "Cabo Verde"
+  };
+
+  function lookupCentroid(name) {
+    var table = window.HPT_COUNTRY_CENTROIDS || {};
+    if (!name) return null;
+    if (table[name]) return table[name];
+    var key = String(name).trim().toLowerCase();
+    var alias = COUNTRY_ALIASES[key];
+    if (alias && table[alias]) return table[alias];
+    var matchKey = Object.keys(table).filter(function (k) { return k.toLowerCase() === key; })[0];
+    return matchKey ? table[matchKey] : null;
+  }
+
+  function projectLonLat(lat, lon) {
+    var x = (lon + 180) / 360 * WORLD_MAP_W;
+    var y = (90 - lat) / 180 * WORLD_MAP_H;
+    return [x, y];
+  }
+
+  function renderCountryMap(data, mountId) {
+    var mount = document.getElementById(mountId);
+    if (!mount) return;
+    var caption = mount.parentNode.querySelector(".map-caption");
+
+    var counts = {};
+    data.forEach(function (row) {
+      if (row.country) counts[row.country] = (counts[row.country] || 0) + 1;
+    });
+    var countries = Object.keys(counts);
+    if (countries.length === 0) {
+      mount.innerHTML = "";
+      if (caption) caption.style.display = "none";
+      return;
+    }
+
+    fetch(assetUrl("/assets/img/world-outline.svg"))
+      .then(function (res) { return res.text(); })
+      .then(function (svgText) {
+        mount.innerHTML = svgText;
+        var svg = mount.querySelector("svg");
+        if (!svg) return;
+
+        var maxCount = countries.reduce(function (m, c) { return Math.max(m, counts[c]); }, 1);
+        var unmatched = [];
+
+        countries.forEach(function (country) {
+          var centroid = lookupCentroid(country);
+          if (!centroid) {
+            unmatched.push(country);
+            return;
+          }
+          var xy = projectLonLat(centroid[0], centroid[1]);
+          var r = 4 + Math.sqrt(counts[country] / maxCount) * 12;
+          var circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+          circle.setAttribute("cx", xy[0]);
+          circle.setAttribute("cy", xy[1]);
+          circle.setAttribute("r", r.toFixed(1));
+          circle.setAttribute("class", "map-dot");
+          var title = document.createElementNS("http://www.w3.org/2000/svg", "title");
+          title.textContent = country + ": " + counts[country] + (counts[country] === 1 ? " study" : " studies");
+          circle.appendChild(title);
+          svg.appendChild(circle);
+        });
+
+        if (caption) {
+          if (unmatched.length) {
+            caption.textContent = unmatched.length + (unmatched.length === 1 ? " country" : " countries") +
+              " not shown on the map (name didn't match): " + unmatched.join(", ");
+            caption.style.display = "block";
+          } else {
+            caption.textContent = "";
+            caption.style.display = "none";
+          }
+        }
+      })
+      .catch(function (err) { console.error("Failed to load world map", err); });
   }
 
   // ---- Explore table ----------------------------------------------------
