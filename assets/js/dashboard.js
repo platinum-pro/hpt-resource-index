@@ -270,7 +270,6 @@
         var svg = mount.querySelector("svg");
         if (!svg) return;
 
-        var maxCount = countries.reduce(function (m, c) { return Math.max(m, counts[c]); }, 1);
         var unmatched = [];
 
         countries.forEach(function (country) {
@@ -280,7 +279,9 @@
             return;
           }
           var xy = projectLonLat(centroid[0], centroid[1]);
-          var r = 4 + Math.sqrt(counts[country] / maxCount) * 12;
+          // Scaled off the absolute count (not the dataset max) so a single
+          // study doesn't render at full size just because it's early data.
+          var r = Math.min(3 + Math.sqrt(counts[country]) * 2, 12);
           var circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
           circle.setAttribute("cx", xy[0]);
           circle.setAttribute("cy", xy[1]);
