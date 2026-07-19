@@ -103,7 +103,6 @@
 
     renderYearTrend(data, "trend-year");
     renderBreakdown(data, "commodity_domain", "breakdown-domain");
-    renderBreakdown(data, "demand_model", "breakdown-model");
     renderCountryMap(data, "country-map");
   }
 
