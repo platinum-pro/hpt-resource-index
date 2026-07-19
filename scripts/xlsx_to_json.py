@@ -11,6 +11,7 @@ spreadsheet, update COLUMNS to match.
 """
 
 import json
+from collections import Counter
 from pathlib import Path
 
 import openpyxl
@@ -66,12 +67,40 @@ FIRST_DATA_ROW = 3
 
 
 def coerce(value, value_type):
+    if isinstance(value, str):
+        value = value.strip()
     if value is None or value == "":
         return None
     try:
-        return value_type(value)
+        result = value_type(value)
     except (TypeError, ValueError):
-        return str(value)
+        result = str(value)
+    return result.strip() if isinstance(result, str) else result
+
+
+def normalize_casing(records):
+    """Collapse data-entry variants (stray whitespace, mixed case) of the
+    same value down to one spelling, per field, so they don't fragment
+    filters and breakdown charts into near-duplicate categories. Only
+    touches values that actually collide once trimmed/case-folded — real
+    distinct values are untouched.
+    """
+    string_fields = [key for _, key, value_type in COLUMNS if value_type is str]
+    for field in string_fields:
+        counts = Counter(r[field] for r in records if r.get(field))
+        groups = {}
+        for value, count in counts.items():
+            groups.setdefault(value.casefold(), []).append((value, count))
+        canonical = {}
+        for variants in groups.values():
+            if len(variants) > 1:
+                winner = max(variants, key=lambda vc: vc[1])[0]
+                for value, _ in variants:
+                    canonical[value] = winner
+        if canonical:
+            for r in records:
+                if r.get(field) in canonical:
+                    r[field] = canonical[r[field]]
 
 
 def main():
@@ -89,6 +118,8 @@ def main():
             for col, key, value_type in COLUMNS
         }
         records.append(record)
+
+    normalize_casing(records)
 
     JSON_PATH.parent.mkdir(parents=True, exist_ok=True)
     with open(JSON_PATH, "w", encoding="utf-8") as f:
