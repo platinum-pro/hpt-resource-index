@@ -15,7 +15,7 @@
     { key: "region", label: "Region" }
   ];
 
-  var SEARCH_FIELDS = ["study_id", "journal", "commodity", "population", "country", "notes"];
+  var SEARCH_FIELDS = ["study_id", "journal", "commodity", "population", "country", "notes", "demand_model"];
 
   var TABLE_COLUMNS = [
     { key: "study_id", label: "Study ID" },
@@ -23,7 +23,6 @@
     { key: "commodity", label: "Commodity" },
     { key: "commodity_category", label: "Category" },
     { key: "study_design", label: "Design" },
-    { key: "demand_model", label: "Demand Model" },
     { key: "sample_size", label: "N" },
     { key: "mean_age", label: "Mean Age" },
     { key: "num_prices", label: "# Prices" },
