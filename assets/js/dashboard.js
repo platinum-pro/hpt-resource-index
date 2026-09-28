@@ -338,9 +338,12 @@
             return;
           }
           var xy = projectLonLat(centroid[0], centroid[1]);
-          // Scaled off the absolute count (not the dataset max) so a single
-          // study doesn't render at full size just because it's early data.
-          var r = Math.min(3 + Math.sqrt(counts[country]) * 2, 12);
+          // Log scale off the absolute count (not the dataset max, so a
+          // single study doesn't render at full size just because it's
+          // early data) -- lets a big outlier like the US keep growing
+          // instead of flatlining at a fixed cap, while still compressing
+          // the visual difference between e.g. 50 and 300 studies.
+          var r = Math.min(4 + Math.log(counts[country]) * 3, 40);
           var circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
           circle.setAttribute("cx", xy[0]);
           circle.setAttribute("cy", xy[1]);
