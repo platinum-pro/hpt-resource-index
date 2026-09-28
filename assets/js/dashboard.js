@@ -20,12 +20,13 @@
   var TABLE_COLUMNS = [
     { key: "study_id", label: "Study ID" },
     { key: "year", label: "Year" },
-    { key: "journal", label: "Journal" },
     { key: "commodity", label: "Commodity" },
     { key: "commodity_category", label: "Category" },
     { key: "study_design", label: "Design" },
     { key: "demand_model", label: "Demand Model" },
     { key: "sample_size", label: "N" },
+    { key: "mean_age", label: "Mean Age" },
+    { key: "num_prices", label: "# Prices" },
     { key: "country", label: "Country" },
     { key: "pub_type", label: "Pub Type" },
     { key: "open_access", label: "OA" }

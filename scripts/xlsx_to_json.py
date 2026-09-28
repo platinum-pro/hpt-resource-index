@@ -18,6 +18,7 @@ from pathlib import Path
 import openpyxl
 
 from commodity_categories import COMMODITY_TO_CATEGORY
+from demand_model_aliases import DEMAND_MODEL_ALIASES
 
 ROOT = Path(__file__).resolve().parent.parent
 XLSX_PATH = ROOT / "HPT Resource Index.xlsx"
@@ -118,6 +119,18 @@ def normalize_casing(records):
                     r[field] = canonical[r[field]]
 
 
+def apply_demand_model_aliases(records):
+    """Merges confident-only demand_model wording variants -- see
+    scripts/demand_model_aliases.py for what's covered and why the rest
+    isn't. Applied before normalize_casing so any stray whitespace/casing
+    on the merged results still gets cleaned up.
+    """
+    for r in records:
+        value = r.get("demand_model")
+        if value in DEMAND_MODEL_ALIASES:
+            r["demand_model"] = DEMAND_MODEL_ALIASES[value]
+
+
 def assign_commodity_category(records):
     """Derives commodity_category from commodity via COMMODITY_TO_CATEGORY.
     Not a real spreadsheet column -- computed here so it can't drift out of
@@ -154,6 +167,7 @@ def main():
         }
         records.append(record)
 
+    apply_demand_model_aliases(records)
     normalize_casing(records)
     assign_commodity_category(records)
 
