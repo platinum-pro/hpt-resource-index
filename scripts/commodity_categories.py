@@ -95,6 +95,7 @@ CATEGORIES = {
         "Disease-modifying therapy (DMT) for multiple sclerosis",
         "Emergency Contraceptives",
         "Adherence to infant sleep safety steps",
+        "Health insurance",
     ],
     "Household & Personal Care": [
         "Hand lotion",
@@ -124,6 +125,12 @@ CATEGORIES = {
         # Not really a "commodity" in the usual sense -- a treatment method
         # used as the purchase-task item. Flagged for a second look.
         "Contingency management",
+        # Not a purchase/consumption commodity at all -- a policy-support
+        # attitude measure, with likelihood-of-success substituted for
+        # price. Included per the About page's stated exception for
+        # non-monetary price substitutes, but it's the furthest stretch of
+        # "commodity" in the index so far.
+        "Support for U.S. military intervention",
     ],
 }
 
