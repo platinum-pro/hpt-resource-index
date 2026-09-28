@@ -201,19 +201,6 @@ p.lede { color: var(--muted); max-width: 65ch; }
 
 .browse-chip:hover { border-color: var(--accent); color: var(--accent); }
 
-.hero-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  margin-top: 24px;
-}
-
-.cta.cta-secondary {
-  background: none;
-  color: var(--accent);
-  border: 1px solid var(--line);
-}
-
 .hero-visual {
   flex: 0.8;
   min-width: 260px;
