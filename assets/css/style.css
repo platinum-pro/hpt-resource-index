@@ -175,6 +175,10 @@ p.lede { color: var(--muted); max-width: 65ch; }
   cursor: pointer;
 }
 
+@media (max-width: 640px) {
+  .home-search { flex-direction: column; }
+}
+
 .browse-chips {
   display: flex;
   flex-wrap: wrap;
@@ -401,7 +405,7 @@ p.lede { color: var(--muted); max-width: 65ch; }
   font-size: 0.9rem;
 }
 
-.filters input[type="search"] { flex: 1; min-width: 200px; }
+.filters input[type="search"] { flex: 1 1 100%; }
 
 table.data-table {
   width: 100%;
