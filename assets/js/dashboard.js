@@ -9,10 +9,7 @@
     { key: "commodity_category", label: "Category" },
     { key: "commodity", label: "Commodity" },
     { key: "study_design", label: "Study Design" },
-    { key: "demand_model", label: "Demand Model" },
-    { key: "pub_type", label: "Pub Type" },
-    { key: "open_access", label: "Open Access" },
-    { key: "region", label: "Region" }
+    { key: "open_access", label: "Open Access" }
   ];
 
   var SEARCH_FIELDS = ["study_id", "journal", "commodity", "population", "country", "notes", "demand_model"];
@@ -433,6 +430,7 @@
       document.getElementById("result-count").textContent =
         filtered.length + " of " + data.length + " studies";
       renderFilterChips(state, applyAndRender);
+      updateSortIndicators(state);
     }
 
     applyAndRender();
@@ -508,7 +506,9 @@
     thead.innerHTML = "";
     var tr = el("tr");
     TABLE_COLUMNS.forEach(function (col) {
-      var th = el("th", { text: col.label, "data-key": col.key });
+      var th = el("th", { "data-key": col.key });
+      th.appendChild(document.createTextNode(col.label + " "));
+      th.appendChild(el("span", { class: "sort-indicator" }));
       th.addEventListener("click", function () {
         if (state.sortKey === col.key) {
           state.sortDir = state.sortDir === "asc" ? "desc" : "asc";
@@ -521,6 +521,22 @@
       tr.appendChild(th);
     });
     thead.appendChild(tr);
+    updateSortIndicators(state);
+  }
+
+  function updateSortIndicators(state) {
+    var thead = document.getElementById("table-head");
+    thead.querySelectorAll("th").forEach(function (th) {
+      var indicator = th.querySelector(".sort-indicator");
+      var isActive = th.getAttribute("data-key") === state.sortKey;
+      if (isActive) {
+        indicator.textContent = state.sortDir === "asc" ? "▲" : "▼";
+        th.setAttribute("aria-sort", state.sortDir === "asc" ? "ascending" : "descending");
+      } else {
+        indicator.textContent = "";
+        th.removeAttribute("aria-sort");
+      }
+    });
   }
 
   function isUsableLink(v) {

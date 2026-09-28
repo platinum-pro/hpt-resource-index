@@ -437,6 +437,11 @@ table.data-table th {
   white-space: nowrap;
 }
 
+.sort-indicator {
+  color: var(--accent);
+  font-size: 0.7em;
+}
+
 .study-link {
   color: var(--accent);
   text-decoration: none;
