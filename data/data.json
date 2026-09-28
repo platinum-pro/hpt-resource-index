@@ -15185,7 +15185,7 @@
     "aggregate_analysis": "Yes",
     "country": "Nigeria",
     "region": "Africa",
-    "sample_size": 106,
+    "sample_size": 78,
     "population": "General community sample (Nigerian adults)",
     "mean_age": 29.48,
     "num_prices": 15,
@@ -15207,7 +15207,7 @@
     "mean_breakpoint": null,
     "mean_pmax": 18478.78,
     "mean_r2": 0.87,
-    "notes": "Preprint, self-authored by the PI (PROMISE Labs Africa). Aggregate exponential/exponentiated demand model fit to pooled Yes/No purchase responses across all 106 participants (Figure 1); individual-level Q0/alpha could not be estimated from dichotomous responses, so a normalized AUC was used as an individual-level proxy instead. Values here are the full-sample aggregate model, not the open/closed-economy subgroup splits reported separately in the paper.",
+    "notes": "Preprint, self-authored by the PI (PROMISE Labs Africa); still under peer review, sample size may be revised once a final accepted version exists. N=78 used here (not the N=106 total recruited) -- Table 1 reports 106 for most characteristics, but Economy Type Assigned To (the experimental condition the demand analysis is split on) and Household Income both sum to only 78 with no accounting for the other 28, so 78 is treated as the analyzed sample. Aggregate exponential/exponentiated demand model fit to pooled Yes/No purchase responses (Figure 1); individual-level Q0/alpha could not be estimated from dichotomous responses, so a normalized AUC was used as an individual-level proxy instead. Values here are the full-sample aggregate model, not the open/closed-economy subgroup splits reported separately in the paper.",
     "commodity_category": "Health & Prevention"
   },
   {
