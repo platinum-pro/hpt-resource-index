@@ -117,6 +117,16 @@
   // linking straight into a pre-filtered Explore page. Derived from the
   // real data rather than a fixed taxonomy, since the coded commodities are
   // free text and vary in how many distinct values show up.
+  // Categories dominated by substance use (see scripts/commodity_categories.py
+  // for the source taxonomy) -- kept in sync by hand since that mapping is
+  // Python/build-time only and not available to this client-side script.
+  var SUBSTANCE_CATEGORIES = ["Alcohol", "Tobacco & Nicotine", "Cannabis", "Opioids", "Other substances"];
+
+  // Homepage "Browse by:" chips, linking into a pre-filtered Explore page.
+  // Substance-use categories make up ~84% of the index, so a plain top-N by
+  // count would show nothing else; instead this deliberately mixes in
+  // non-substance categories so the chips reflect the index's actual
+  // breadth, not just its largest slice.
   function renderBrowseChips(data, mountId) {
     var mount = document.getElementById(mountId);
     if (!mount) return;
@@ -125,20 +135,30 @@
 
     var counts = {};
     data.forEach(function (row) {
-      var v = row.commodity;
+      var v = row.commodity_category;
       if (v) counts[v] = (counts[v] || 0) + 1;
     });
-    var top = Object.keys(counts)
-      .map(function (k) { return [k, counts[k]]; })
-      .sort(function (a, b) { return b[1] - a[1]; })
-      .slice(0, 5);
-    if (top.length === 0) return;
+
+    var substance = [], other = [];
+    Object.keys(counts).forEach(function (cat) {
+      (SUBSTANCE_CATEGORIES.indexOf(cat) === -1 ? other : substance).push([cat, counts[cat]]);
+    });
+    var byCountDesc = function (a, b) { return b[1] - a[1]; };
+    substance.sort(byCountDesc);
+    other.sort(byCountDesc);
+
+    var picks = [];
+    for (var i = 0; i < 3; i++) {
+      if (substance[i]) picks.push(substance[i]);
+      if (other[i]) picks.push(other[i]);
+    }
+    if (picks.length === 0) return;
 
     mount.appendChild(el("span", { class: "browse-label", text: "Browse by:" }));
-    top.forEach(function (entry) {
+    picks.forEach(function (entry) {
       var link = el("a", {
         class: "browse-chip",
-        href: assetUrl("/explore.html") + "?commodity=" + encodeURIComponent(entry[0]),
+        href: assetUrl("/explore.html") + "?commodity_category=" + encodeURIComponent(entry[0]),
         text: entry[0]
       });
       mount.appendChild(link);
