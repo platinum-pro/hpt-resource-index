@@ -37,7 +37,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": 0.89,
-    "notes": "Manuscript available on APA website, but figures and tables left out. Not accessible on any source checked."
+    "notes": "Manuscript available on APA website, but figures and tables left out. Not accessible on any source checked.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Acker2012",
@@ -77,7 +78,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "The paper reported correlations, regression coefficients, and hierarchical regression R² values but not the demand indices, although an aggregate demand curve was fit."
+    "notes": "The paper reported correlations, regression coefficients, and hierarchical regression R² values but not the demand indices, although an aggregate demand curve was fit.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Acker2013",
@@ -117,7 +119,8 @@
     "mean_breakpoint": 1.32,
     "mean_pmax": 0.94,
     "mean_r2": "0.80 (median)",
-    "notes": "The paper reported the mean demand indices of the HPT in two conditions in Table 1. So i averaged each to record in this table."
+    "notes": "The paper reported the mean demand indices of the HPT in two conditions in Table 1. So i averaged each to record in this table.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Acuff2017-alc",
@@ -157,7 +160,8 @@
     "mean_breakpoint": 9.89,
     "mean_pmax": 4.47,
     "mean_r2": 0.89,
-    "notes": "Averaged the demand indices for the curves at baseline and second data collection points."
+    "notes": "Averaged the demand indices for the curves at baseline and second data collection points.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Acuff2018-alc",
@@ -197,7 +201,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "The parent study was a randomized clinical trial, but the study analyses used baseline data only, so i coded study design as Secondary Analysis."
+    "notes": "The parent study was a randomized clinical trial, but the study analyses used baseline data only, so i coded study design as Secondary Analysis.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Acuff2020a-alc",
@@ -237,7 +242,8 @@
     "mean_breakpoint": 12.87,
     "mean_pmax": 9.1,
     "mean_r2": 0.93,
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Acuff2020b-alc",
@@ -277,7 +283,8 @@
     "mean_breakpoint": 8.24,
     "mean_pmax": 5.95,
     "mean_r2": 0.85,
-    "notes": "Averaged demand indices (three versions of the HPT)"
+    "notes": "Averaged demand indices (three versions of the HPT)",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Acuff2023-can",
@@ -317,7 +324,8 @@
     "mean_breakpoint": 38.38,
     "mean_pmax": 26.59,
     "mean_r2": 0.82,
-    "notes": "Averaged demand indices (five versions of the HPT)"
+    "notes": "Averaged demand indices (five versions of the HPT)",
+    "commodity_category": "Cannabis"
   },
   {
     "study_id": "Amlung2011-alc",
@@ -357,7 +365,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "The demand indices (Alpha, Q0, Pmax, Breakpoint) were used in inferential analyses but not directly reported, although they plotted the aggregated/mean demand curve; only median R2 was reported, not mean."
+    "notes": "The demand indices (Alpha, Q0, Pmax, Breakpoint) were used in inferential analyses but not directly reported, although they plotted the aggregated/mean demand curve; only median R2 was reported, not mean.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Amlung2012-alc",
@@ -397,7 +406,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Amlung2013-alc",
@@ -437,7 +447,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "0.84 (median)",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Amlung2014-alc",
@@ -477,7 +488,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "The study used both within-subjects and between-subjects assignment. I recorded between-subjects."
+    "notes": "The study used both within-subjects and between-subjects assignment. I recorded between-subjects.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Amlung2015-alc",
@@ -517,7 +529,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": 2.54,
     "mean_r2": "NR",
-    "notes": "Averaged Pmax indice (two conditions)"
+    "notes": "Averaged Pmax indice (two conditions)",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Amlung2016-alc",
@@ -557,7 +570,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "Averaged the reported demand indices across 2 groups."
+    "notes": "Averaged the reported demand indices across 2 groups.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Amlung2017-alc",
@@ -597,7 +611,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "0.93 (median)",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Amlung2018-can",
@@ -637,7 +652,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": 15.19,
     "mean_r2": "NR",
-    "notes": "Averaged the reported demand indices."
+    "notes": "Averaged the reported demand indices.",
+    "commodity_category": "Cannabis"
   },
   {
     "study_id": "Amlung2024-alc",
@@ -677,7 +693,8 @@
     "mean_breakpoint": 30.63,
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "Averaged the reported demand indices across 2 conditions."
+    "notes": "Averaged the reported demand indices across 2 conditions.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "André2023-alc",
@@ -717,7 +734,8 @@
     "mean_breakpoint": 11.59,
     "mean_pmax": 6.3,
     "mean_r2": "NR",
-    "notes": "Averaged the demand indices reported across 4 groups."
+    "notes": "Averaged the demand indices reported across 4 groups.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Aston2015",
@@ -757,7 +775,8 @@
     "mean_breakpoint": 4.24,
     "mean_pmax": 2.32,
     "mean_r2": 0.99,
-    "notes": "\"The Exponential Demand Equation provided an excellent fit to the overall demand data (R2=0.99) and a very good fit to the individual data (median R2 =0.81, interquartile range=0.74–0.85).\"\n\nI reported the overall R2 as the mean R2."
+    "notes": "\"The Exponential Demand Equation provided an excellent fit to the overall demand data (R2=0.99) and a very good fit to the individual data (median R2 =0.81, interquartile range=0.74–0.85).\"\n\nI reported the overall R2 as the mean R2.",
+    "commodity_category": "Cannabis"
   },
   {
     "study_id": "Aston2016-can",
@@ -797,7 +816,8 @@
     "mean_breakpoint": 4.27,
     "mean_pmax": 2.31,
     "mean_r2": "0.82 (median)",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Cannabis"
   },
   {
     "study_id": "Aston2017-can",
@@ -837,7 +857,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Cannabis"
   },
   {
     "study_id": "Aston2020-can",
@@ -877,7 +898,8 @@
     "mean_breakpoint": 17.88,
     "mean_pmax": 7.95,
     "mean_r2": "0.88 (median)",
-    "notes": "The study featured two phases: phase 1 was focus groups (31 participants) and phase 2 was cognitive interviews (20 participants). \n\nThe HPTs used in both measured the same commodity but were different. Phase 1 HPT had 22 prices from $0 to $10. Phase 2 HPT had 20 prices from $0 to $60.  \n\nBoth analyses had different k values. \nThe demand indices, R2 and mean ages were averaged and reported here. \nThe composite sample size for HPT analyses was recorded."
+    "notes": "The study featured two phases: phase 1 was focus groups (31 participants) and phase 2 was cognitive interviews (20 participants). \n\nThe HPTs used in both measured the same commodity but were different. Phase 1 HPT had 22 prices from $0 to $10. Phase 2 HPT had 20 prices from $0 to $60.  \n\nBoth analyses had different k values. \nThe demand indices, R2 and mean ages were averaged and reported here. \nThe composite sample size for HPT analyses was recorded.",
+    "commodity_category": "Cannabis"
   },
   {
     "study_id": "Aston2021-alc",
@@ -917,7 +939,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": 5.39,
     "mean_r2": "NR",
-    "notes": "The authors mentioned that the demand indiced were derived by hand using established formulae. Also, the paper reports a \"mean consumption\" curve but no fitted demand curves. So i recorded No for both individual analysis and aggregate analysis."
+    "notes": "The authors mentioned that the demand indiced were derived by hand using established formulae. Also, the paper reports a \"mean consumption\" curve but no fitted demand curves. So i recorded No for both individual analysis and aggregate analysis.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Aston2021-can",
@@ -957,7 +980,8 @@
     "mean_breakpoint": 30.65,
     "mean_pmax": 13.0,
     "mean_r2": "0.875 (median)",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Cannabis"
   },
   {
     "study_id": "Aston2022-alc",
@@ -997,7 +1021,8 @@
     "mean_breakpoint": 7.89,
     "mean_pmax": 5.0,
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Aston2023-can",
@@ -1037,7 +1062,8 @@
     "mean_breakpoint": 3.11,
     "mean_pmax": 2.03,
     "mean_r2": "NR",
-    "notes": "Averaged reported demand indices of curves fitted to data collected at two timepoints."
+    "notes": "Averaged reported demand indices of curves fitted to data collected at two timepoints.",
+    "commodity_category": "Cannabis"
   },
   {
     "study_id": "Athamneh2018-cig",
@@ -1077,7 +1103,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Barnes2017-ecig",
@@ -1117,7 +1144,8 @@
     "mean_breakpoint": "3.24 (aggregate)",
     "mean_pmax": "2.56 (aggregate)",
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Barnes2020",
@@ -1157,7 +1185,8 @@
     "mean_breakpoint": 23.74,
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "In this study, 1360 adolescents formed the study sample. 1063 participants were included in the price-responsiveness analysis after exclusions. 579 price-responsive were adolescents used for the breakpoint and Omax analyses. 485 participants were used for the elasticity analysis after excluding poor-fitting demand curves."
+    "notes": "In this study, 1360 adolescents formed the study sample. 1063 participants were included in the price-responsiveness analysis after exclusions. 579 price-responsive were adolescents used for the breakpoint and Omax analyses. 485 participants were used for the elasticity analysis after excluding poor-fitting demand curves.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Becirevic2017",
@@ -1197,7 +1226,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "The paper reports that R² > .99 for all the groups. \n\nIt also reported Pmax and breakpoint for one of the groups, the High-risk group (Pmax = 12.24, Breakpoint = 32.81).\n\nElasticity, Intensity, Breakpoint, Pmax, Omax and Essential Value for the groups were reported graphically."
+    "notes": "The paper reports that R² > .99 for all the groups. \n\nIt also reported Pmax and breakpoint for one of the groups, the High-risk group (Pmax = 12.24, Breakpoint = 32.81).\n\nElasticity, Intensity, Breakpoint, Pmax, Omax and Essential Value for the groups were reported graphically.",
+    "commodity_category": "Behavioral (non-substance)"
   },
   {
     "study_id": "Bellitti2026-food",
@@ -1237,7 +1267,8 @@
     "mean_breakpoint": 8.995,
     "mean_pmax": 6.54,
     "mean_r2": "NR",
-    "notes": "Averaged the reported alpha, breakpoint and Pmax values across 2 conditions."
+    "notes": "Averaged the reported alpha, breakpoint and Pmax values across 2 conditions.",
+    "commodity_category": "Food & Nutrition"
   },
   {
     "study_id": "Berey2022-can",
@@ -1277,7 +1308,8 @@
     "mean_breakpoint": 3.13,
     "mean_pmax": 1.94,
     "mean_r2": "NR",
-    "notes": "NA"
+    "notes": "NA",
+    "commodity_category": "Cannabis"
   },
   {
     "study_id": "Bergeria2019-cig",
@@ -1317,7 +1349,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "NA"
+    "notes": "NA",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Berman2017",
@@ -1357,7 +1390,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "6.03  (aggregate)",
     "mean_r2": "0.967  (aggregate)",
-    "notes": "The study used the same Alcohol HPT for two experiments. I averaged the sameple sizes and mean ages for both. The two experiments had different k values. \nThe paper reported values for demand indices across 3 conditions for each experiment. So I averaged the 6 values for each demand index."
+    "notes": "The study used the same Alcohol HPT for two experiments. I averaged the sameple sizes and mean ages for both. The two experiments had different k values. \nThe paper reported values for demand indices across 3 conditions for each experiment. So I averaged the 6 values for each demand index.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Berry2023-alc",
@@ -1397,7 +1431,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": 0.95,
-    "notes": "The paper states that the data were secondary data drawn from three previously conducted experimental laboratory protocols."
+    "notes": "The paper states that the data were secondary data drawn from three previously conducted experimental laboratory protocols.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Berry2023-coc",
@@ -1437,7 +1472,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": 0.89,
-    "notes": "The paper states that the data were secondary data drawn from three previously conducted experimental laboratory protocols."
+    "notes": "The paper states that the data were secondary data drawn from three previously conducted experimental laboratory protocols.",
+    "commodity_category": "Other substances"
   },
   {
     "study_id": "Berry2023-met",
@@ -1477,7 +1513,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": 0.82,
-    "notes": "The paper states that the data were secondary data drawn from three previously conducted experimental laboratory protocols."
+    "notes": "The paper states that the data were secondary data drawn from three previously conducted experimental laboratory protocols.",
+    "commodity_category": "Other substances"
   },
   {
     "study_id": "Bertholet2015",
@@ -1517,7 +1554,8 @@
     "mean_breakpoint": 15.59,
     "mean_pmax": 8.39,
     "mean_r2": 0.79,
-    "notes": "\"Exponential equation provided a satisfactory fit to individual participants responses\n(n=4790, mean R2 0.79, median 0.80).\"\n\nI indicated Yes to individual analyses based on this."
+    "notes": "\"Exponential equation provided a satisfactory fit to individual participants responses\n(n=4790, mean R2 0.79, median 0.80).\"\n\nI indicated Yes to individual analyses based on this.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Bickel2021-cig",
@@ -1557,7 +1595,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "0.95 (aggregate)",
-    "notes": "The paper reported mean ages for two groups so I averaged both. \n\nThe paper reports group means of log(α), not raw alpha. log(α) = −5.33 ± 1.14 for participants with obesity and −5.15 ± 1.14 for participants without obesity. \n\nAlso, the paper reports group means of log(Q0), not raw demand intensity. log(Q0) = 3.48 ± 0.55 for participants with obesity and 3.24 ± 0.50 for participants without obesity."
+    "notes": "The paper reported mean ages for two groups so I averaged both. \n\nThe paper reports group means of log(α), not raw alpha. log(α) = −5.33 ± 1.14 for participants with obesity and −5.15 ± 1.14 for participants without obesity. \n\nAlso, the paper reports group means of log(Q0), not raw demand intensity. log(Q0) = 3.48 ± 0.55 for participants with obesity and 3.24 ± 0.50 for participants without obesity.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Bidwell2012",
@@ -1597,7 +1636,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "\"To generate an estimate of Elasticity, demand curves were estimated by fitting each participant's reported consumption across the range of prices to Hursh and Silberberg's (2008) exponential demand curve equation\""
+    "notes": "\"To generate an estimate of Elasticity, demand curves were estimated by fitting each participant's reported consumption across the range of prices to Hursh and Silberberg's (2008) exponential demand curve equation\"",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Bird2024-alc",
@@ -1637,7 +1677,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "0.94 (median)",
-    "notes": "In the paper, the purchase task prices are $0 to $40 and the study was conducted in Canada, so I coded currency as CAD, but this wasn't stated explicitly."
+    "notes": "In the paper, the purchase task prices are $0 to $40 and the study was conducted in Canada, so I coded currency as CAD, but this wasn't stated explicitly.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Bono2022-cig",
@@ -1677,7 +1718,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "The paper reported an R² range of 0.86 to >0.99."
+    "notes": "The paper reported an R² range of 0.86 to >0.99.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Bono2024-cig",
@@ -1717,7 +1759,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Borissova2022-can",
@@ -1757,7 +1800,8 @@
     "mean_breakpoint": 4.11,
     "mean_pmax": 2.42,
     "mean_r2": "NR",
-    "notes": "The study had two HPT sample groups, so I averaged the mean age and mean demand indices for both."
+    "notes": "The study had two HPT sample groups, so I averaged the mean age and mean demand indices for both.",
+    "commodity_category": "Cannabis"
   },
   {
     "study_id": "Broadbent2015-int",
@@ -1797,7 +1841,8 @@
     "mean_breakpoint": "4 (median)",
     "mean_pmax": "2 (median)",
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Leisure & Entertainment"
   },
   {
     "study_id": "Brown2021",
@@ -1837,7 +1882,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "The study featured two HPTs. Only the quantity HPT was reported here. Median R2 was reported, not mean."
+    "notes": "The study featured two HPTs. Only the quantity HPT was reported here. Median R2 was reported, not mean.",
+    "commodity_category": "Behavioral (non-substance)"
   },
   {
     "study_id": "Bruner2014",
@@ -1877,7 +1923,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "12.52 (median)",
     "mean_r2": 0.98,
-    "notes": "\"The demand curve equation was a good fit to the median\nconsumption data, with an R2 value of 0.98.  \nFor the majority of the individual participants, the demand curve equation also provided a good fit to the data, with a median R2 of 0.94 across participants. Of the 74 participants, only eight had R2 values that\nwere lower than 0.85. The median observed value of demand\nintensity was 65.0 units of cocaine (interquartile range=20.0\n145.5), and the median curve-calculated value (l) was 24.1\nunits (interquartile range=13.2–64.7). The median observed Pmax was $8.95 (interquartile range 2.50–25.00), and the\nmedian curve-calculated Pmax was $12.52 (interquartile range\n5.73–25.73).\""
+    "notes": "\"The demand curve equation was a good fit to the median\nconsumption data, with an R2 value of 0.98.  \nFor the majority of the individual participants, the demand curve equation also provided a good fit to the data, with a median R2 of 0.94 across participants. Of the 74 participants, only eight had R2 values that\nwere lower than 0.85. The median observed value of demand\nintensity was 65.0 units of cocaine (interquartile range=20.0\n145.5), and the median curve-calculated value (l) was 24.1\nunits (interquartile range=13.2–64.7). The median observed Pmax was $8.95 (interquartile range 2.50–25.00), and the\nmedian curve-calculated Pmax was $12.52 (interquartile range\n5.73–25.73).\"",
+    "commodity_category": "Other substances"
   },
   {
     "study_id": "Bujarski2012-alc",
@@ -1917,7 +1964,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "The demand equation in this study uses a parameter β, described as the \"derived demand parameter reflecting the rate of decline of consumption\" and \"also referred to as essential value.\"\n\nI coded alpha as No and Essential Value as Yes."
+    "notes": "The demand equation in this study uses a parameter β, described as the \"derived demand parameter reflecting the rate of decline of consumption\" and \"also referred to as essential value.\"\n\nI coded alpha as No and Essential Value as Yes.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Bulley2017-alc",
@@ -1957,7 +2005,8 @@
     "mean_breakpoint": 32.04,
     "mean_pmax": 29.27,
     "mean_r2": "NR",
-    "notes": "Paper reports two condition-specific means (episodic vs. control) rather than one overall sample mean, control reported"
+    "notes": "Paper reports two condition-specific means (episodic vs. control) rather than one overall sample mean, control reported",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Burr2025",
@@ -1997,7 +2046,8 @@
     "mean_breakpoint": 2.29,
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "(1) Indices not model-derived (no Hursh & Silberberg/Koffarnus fit), raw single-item Q0/breakpoint/Omax used instead, so Demand Model/k/R2 don't apply. (2) No explicit price-point schedule; open-ended dollar items used instead. (3) Breakpoint range = $0–$50, Omax range = $0–$100; $100 chosen for Highest Price"
+    "notes": "(1) Indices not model-derived (no Hursh & Silberberg/Koffarnus fit), raw single-item Q0/breakpoint/Omax used instead, so Demand Model/k/R2 don't apply. (2) No explicit price-point schedule; open-ended dollar items used instead. (3) Breakpoint range = $0–$50, Omax range = $0–$100; $100 chosen for Highest Price",
+    "commodity_category": "Food & Nutrition"
   },
   {
     "study_id": "Bush2023-can",
@@ -2037,7 +2087,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "The number of prices on the HPT was not explicitly stated."
+    "notes": "The number of prices on the HPT was not explicitly stated.",
+    "commodity_category": "Cannabis"
   },
   {
     "study_id": "Carr2017-hed",
@@ -2077,7 +2128,8 @@
     "mean_breakpoint": 9.23,
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "This study has two subgroups (across Study 1 and Study 2). The row values are averaged from both studies.\n\nAlpha comes from a log log regression slope and carries a negative sign."
+    "notes": "This study has two subgroups (across Study 1 and Study 2). The row values are averaged from both studies.\n\nAlpha comes from a log log regression slope and carries a negative sign.",
+    "commodity_category": "Food & Nutrition"
   },
   {
     "study_id": "Carr2017-led",
@@ -2117,7 +2169,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "This row averages the two subgroups from Study 1 only. Study 2 doesn't report LED breakpoint, alpha, or Q0 as plain numbers, only as regression betas in its table."
+    "notes": "This row averages the two subgroups from Study 1 only. Study 2 doesn't report LED breakpoint, alpha, or Q0 as plain numbers, only as regression betas in its table.",
+    "commodity_category": "Food & Nutrition"
   },
   {
     "study_id": "Cassidy2017",
@@ -2157,7 +2210,8 @@
     "mean_breakpoint": 1.4,
     "mean_pmax": 0.5,
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Cassidy2019-cig",
@@ -2197,7 +2251,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": 0.88,
-    "notes": "FLAGGED FOR REVIEW: \nThe doi link leads to a site where the paper has been taken down. But sci-hub indicates the paper is \"open access\". I coded it accordingly. \n\nThe R2 was averaged."
+    "notes": "FLAGGED FOR REVIEW: \nThe doi link leads to a site where the paper has been taken down. But sci-hub indicates the paper is \"open access\". I coded it accordingly. \n\nThe R2 was averaged.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Cassidy2020",
@@ -2237,7 +2292,8 @@
     "mean_breakpoint": "2.47 (aggregate)",
     "mean_pmax": "1.44 (aggregate)",
     "mean_r2": "NR",
-    "notes": "The study used two versions of the HPT for e-cigarettes: a puffs version and an mL e-liquid version. Then for each HPT, there were two groups. The paper reported demand indices for each group, so I averaged all 4 values for each. However, these are aggregates."
+    "notes": "The study used two versions of the HPT for e-cigarettes: a puffs version and an mL e-liquid version. Then for each HPT, there were two groups. The paper reported demand indices for each group, so I averaged all 4 values for each. However, these are aggregates.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Chase2013-choc",
@@ -2277,7 +2333,8 @@
     "mean_breakpoint": 77.64,
     "mean_pmax": 53.38,
     "mean_r2": 0.79,
-    "notes": "Same as above."
+    "notes": "Same as above.",
+    "commodity_category": "Food & Nutrition"
   },
   {
     "study_id": "Chase2013-cig",
@@ -2317,7 +2374,8 @@
     "mean_breakpoint": 104.64,
     "mean_pmax": 71.21,
     "mean_r2": 0.75,
-    "notes": "The paper was published online in 2012 but appeared in a 2013 journal volume.\n\nThe study had two experiments that used HPTs on different commodities. The first was on cigarettes. The second experiment used a chocolate HPT but also included a cigarette HPT."
+    "notes": "The paper was published online in 2012 but appeared in a 2013 journal volume.\n\nThe study had two experiments that used HPTs on different commodities. The first was on cigarettes. The second experiment used a chocolate HPT but also included a cigarette HPT.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Cheong2023-alc",
@@ -2357,7 +2415,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": 1.22,
     "mean_r2": "NR",
-    "notes": "This study reported indices across 3 groups X 4 timepoints (12 values for each demand index). These were averaged and reported. \nThe paper stated that Pmax was natural log-transformed for analyses after adding a small constant (i.e., .001) to handle the value of 0, so the Pmax values were back-transformed."
+    "notes": "This study reported indices across 3 groups X 4 timepoints (12 values for each demand index). These were averaged and reported. \nThe paper stated that Pmax was natural log-transformed for analyses after adding a small constant (i.e., .001) to handle the value of 0, so the Pmax values were back-transformed.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Childs2021-can",
@@ -2397,7 +2456,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "The paper did not explicitly state CAD as the currency, but i coded it based on the study location.\n\nAveraged the reported demand indices."
+    "notes": "The paper did not explicitly state CAD as the currency, but i coded it based on the study location.\n\nAveraged the reported demand indices.",
+    "commodity_category": "Cannabis"
   },
   {
     "study_id": "Chukwueke2021",
@@ -2437,7 +2497,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Coelho2024a-can",
@@ -2477,7 +2538,8 @@
     "mean_breakpoint": 24.98,
     "mean_pmax": 14.71,
     "mean_r2": "0.883 (median)",
-    "notes": "The paper said that \"α (alpha) represents elasticity, or the rate constant, and is described as \"essential value.\"\" But the paper did not calculate or report a value for EV, so i coded it as no. \n\nThe paper did not explicitly state the currency. It simply used $. The study was in canada so i coded it as CAD, but i'm flagging because it is inferred."
+    "notes": "The paper said that \"α (alpha) represents elasticity, or the rate constant, and is described as \"essential value.\"\" But the paper did not calculate or report a value for EV, so i coded it as no. \n\nThe paper did not explicitly state the currency. It simply used $. The study was in canada so i coded it as CAD, but i'm flagging because it is inferred.",
+    "commodity_category": "Cannabis"
   },
   {
     "study_id": "Coelho2024b-alc",
@@ -2517,7 +2579,8 @@
     "mean_breakpoint": 17.58,
     "mean_pmax": 8.81,
     "mean_r2": "0.90 (median)",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Coelho2024b-can",
@@ -2557,7 +2620,8 @@
     "mean_breakpoint": 25.51,
     "mean_pmax": 15.03,
     "mean_r2": "0.90 (median)",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Cannabis"
   },
   {
     "study_id": "Cohn2020-cig",
@@ -2597,7 +2661,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": 0.85,
-    "notes": "The paper only reported modes for Breakpoint (2.00) and Pmax (2.00) so i coded the metadata as NR."
+    "notes": "The paper only reported modes for Breakpoint (2.00) and Pmax (2.00) so i coded the metadata as NR.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Collins2014",
@@ -2637,7 +2702,8 @@
     "mean_breakpoint": 38.07,
     "mean_pmax": 13.21,
     "mean_r2": "NR",
-    "notes": "Observed and derived values were reported for most of the demand indices. I reported the derived values here."
+    "notes": "Observed and derived values were reported for most of the demand indices. I reported the derived values here.",
+    "commodity_category": "Cannabis"
   },
   {
     "study_id": "Cooper2023-can",
@@ -2677,7 +2743,8 @@
     "mean_breakpoint": 18.53,
     "mean_pmax": 5.43,
     "mean_r2": 0.43,
-    "notes": "Entry is based on the author manuscript version (open access via the journal's site), not the final published version of record. \n\nStudy includes a dual-substance/cross-price HPT (cannabis price varied $0–$30, cigarette price fixed at $6). See page 4-5"
+    "notes": "Entry is based on the author manuscript version (open access via the journal's site), not the final published version of record. \n\nStudy includes a dual-substance/cross-price HPT (cannabis price varied $0–$30, cigarette price fixed at $6). See page 4-5",
+    "commodity_category": "Cannabis"
   },
   {
     "study_id": "Cooper2023-cig",
@@ -2717,7 +2784,8 @@
     "mean_breakpoint": 18.13,
     "mean_pmax": 9.01,
     "mean_r2": 0.44,
-    "notes": "Entry is based on the author manuscript version (open access via the journal's site), not the final published version of record.\n\nStudy includes a dual-substance/cross-price HPT (cannabis price varied $0–$30, cigarette price fixed at $6). See page 4-5"
+    "notes": "Entry is based on the author manuscript version (open access via the journal's site), not the final published version of record.\n\nStudy includes a dual-substance/cross-price HPT (cannabis price varied $0–$30, cigarette price fixed at $6). See page 4-5",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Copeland2023-alc",
@@ -2757,7 +2825,8 @@
     "mean_breakpoint": 9.35,
     "mean_pmax": 6.68,
     "mean_r2": 0.87,
-    "notes": "The paper reported elasticity (alpha) medians by group (heavy drinkers: 0.006 and moderated drinkers: 0.008)."
+    "notes": "The paper reported elasticity (alpha) medians by group (heavy drinkers: 0.006 and moderated drinkers: 0.008).",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Cui2021-alc",
@@ -2797,7 +2866,8 @@
     "mean_breakpoint": 18.1,
     "mean_pmax": 5.99,
     "mean_r2": "NR",
-    "notes": "The study was conducted within a clinical trial, but the HPTs were administered before participants were randomized to treatment."
+    "notes": "The study was conducted within a clinical trial, but the HPTs were administered before participants were randomized to treatment.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Cui2021-cig",
@@ -2837,7 +2907,8 @@
     "mean_breakpoint": 6.22,
     "mean_pmax": 2.23,
     "mean_r2": "NR",
-    "notes": "Same as above"
+    "notes": "Same as above",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Dahne2017-cig",
@@ -2877,7 +2948,8 @@
     "mean_breakpoint": 1.81,
     "mean_pmax": 0.995,
     "mean_r2": 0.82,
-    "notes": "The full sample was 73 participants, but the stress condition had 64 participants while neutral had 66.\n\nAveraged the sample size.\n\nAveraged the demand indices means reported for two conditions"
+    "notes": "The full sample was 73 participants, but the stress condition had 64 participants while neutral had 66.\n\nAveraged the sample size.\n\nAveraged the demand indices means reported for two conditions",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Davis2019-cig",
@@ -2917,7 +2989,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Day-Watkins2025",
@@ -2957,7 +3030,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "The study used a Bayesian generalized logistic mixed-effects model and modeled yes/no responses as a function of duration, log incentive size, and AARP, with respondent-level random effects."
+    "notes": "The study used a Bayesian generalized logistic mixed-effects model and modeled yes/no responses as a function of duration, log incentive size, and AARP, with respondent-level random effects.",
+    "commodity_category": "Health & Prevention"
   },
   {
     "study_id": "DeAtley2022-cig",
@@ -2997,7 +3071,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "The randomized trial included 58 participants, but the HPT demand analyses had 49 participants at baseline, and 45 and 37 for specific Week 6 analyses.\n\nI recorded 49 as sample size."
+    "notes": "The randomized trial included 58 participants, but the HPT demand analyses had 49 participants at baseline, and 45 and 37 for specific Week 6 analyses.\n\nI recorded 49 as sample size.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Dennhardt2015-alc",
@@ -3037,7 +3112,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": 0.85,
-    "notes": "Averaged the demand indices reported for 2 conditions at 2 timepoints each (4 in total)"
+    "notes": "Averaged the demand indices reported for 2 conditions at 2 timepoints each (4 in total)",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Dennhardt2016-alc",
@@ -3077,7 +3153,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": 0.81,
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Dolan2020",
@@ -3117,7 +3194,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "Paper has two samples (cocaine disorder N=23; noncocaine control N=11), same commodity, not a multi-commodity case. Sample size and mean age averaged across both samples. Mean Alpha/Mean Q0 not reported as text values in either group, only shown in bar graphs (Figure 2). No numeric values available to average."
+    "notes": "Paper has two samples (cocaine disorder N=23; noncocaine control N=11), same commodity, not a multi-commodity case. Sample size and mean age averaged across both samples. Mean Alpha/Mean Q0 not reported as text values in either group, only shown in bar graphs (Figure 2). No numeric values available to average.",
+    "commodity_category": "Behavioral (non-substance)"
   },
   {
     "study_id": "Dolan2022-alc",
@@ -3157,7 +3235,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Dolan2022-can",
@@ -3197,7 +3276,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Cannabis"
   },
   {
     "study_id": "Dwyer2022",
@@ -3237,7 +3317,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Other substances"
   },
   {
     "study_id": "Edgemon2025",
@@ -3277,7 +3358,8 @@
     "mean_breakpoint": "2.05 (aggregate)",
     "mean_pmax": "NR",
     "mean_r2": "0.877 (aggregate)",
-    "notes": "Averaged the reported values for breakpoint, intensity, and R² across 3 conditions."
+    "notes": "Averaged the reported values for breakpoint, intensity, and R² across 3 conditions.",
+    "commodity_category": "Behavioral (non-substance)"
   },
   {
     "study_id": "Ehlke2022-alc",
@@ -3317,7 +3399,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Ellis2021-alc",
@@ -3357,7 +3440,8 @@
     "mean_breakpoint": 7.8,
     "mean_pmax": 5.72,
     "mean_r2": "NR",
-    "notes": "Averaged the demand indices reported for 2 conditions."
+    "notes": "Averaged the demand indices reported for 2 conditions.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Epstein2010-snack",
@@ -3397,7 +3481,8 @@
     "mean_breakpoint": 1.99,
     "mean_pmax": 1.02,
     "mean_r2": "NR",
-    "notes": null
+    "notes": null,
+    "commodity_category": "Food & Nutrition"
   },
   {
     "study_id": "Erath2024-cig",
@@ -3437,7 +3522,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Evemy2023-cig",
@@ -3477,7 +3563,8 @@
     "mean_breakpoint": "2.94 (aggregate)",
     "mean_pmax": "2.29 (aggregate)",
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Farris2017-cig",
@@ -3517,7 +3604,8 @@
     "mean_breakpoint": "2.42 (aggregate)",
     "mean_pmax": "1.75 (aggregate)",
     "mean_r2": "0.851 (median)",
-    "notes": "The paper reported aggregate values for intensity and elasticity and also group-level by psychopathology, by emotional disorder, and by substance use disorder."
+    "notes": "The paper reported aggregate values for intensity and elasticity and also group-level by psychopathology, by emotional disorder, and by substance use disorder.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Farris2019-cig",
@@ -3557,7 +3645,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "The country wasn't explicitly stated  but i inferred it."
+    "notes": "The country wasn't explicitly stated  but i inferred it.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Ferguson2021-can",
@@ -3597,7 +3686,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "The paper reported a nonlinear demand model fit but did not identify the specific model.\n\nThe paper reported a range for mean R², which is 0.65 to 0.80."
+    "notes": "The paper reported a nonlinear demand model fit but did not identify the specific model.\n\nThe paper reported a range for mean R², which is 0.65 to 0.80.",
+    "commodity_category": "Cannabis"
   },
   {
     "study_id": "Ferguson2023-alc",
@@ -3637,7 +3727,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Few2012-cig",
@@ -3677,7 +3768,8 @@
     "mean_breakpoint": 0.74,
     "mean_pmax": "NR",
     "mean_r2": 0.76,
-    "notes": "The reported Mean R2 is the model fit for data at the first timepoint."
+    "notes": "The reported Mean R2 is the model fit for data at the first timepoint.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Freitas-Lemos2021-cig",
@@ -3717,7 +3809,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": 0.94,
-    "notes": "Demand indices were reported for three groups across three different conditions (9 in total), so I averages these. The mean age was reported per group so that was averaged as well."
+    "notes": "Demand indices were reported for three groups across three different conditions (9 in total), so I averages these. The mean age was reported per group so that was averaged as well.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Freitas-Lemos2022a-cig",
@@ -3757,7 +3850,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "The paper reports two studies with two HPTs on the same commodity. However, no numerical values for demand indices were reported. The HPT characteristics decribed here (price points, sample size, averaged group mean ages) belong to the HPT used in Study 2.\n\nThe k value and averaged group mean age for Study 1 are different and not reflected in the values coded."
+    "notes": "The paper reports two studies with two HPTs on the same commodity. However, no numerical values for demand indices were reported. The HPT characteristics decribed here (price points, sample size, averaged group mean ages) belong to the HPT used in Study 2.\n\nThe k value and averaged group mean age for Study 1 are different and not reflected in the values coded.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Garcia-Perez2020-cig",
@@ -3797,7 +3891,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "In the paper, the authors' affiliation is University of Oviedo, Spain, but it does not explicitly state if the participants were recruited in Spain."
+    "notes": "In the paper, the authors' affiliation is University of Oviedo, Spain, but it does not explicitly state if the participants were recruited in Spain.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Garcia-Perez2021",
@@ -3837,7 +3932,8 @@
     "mean_breakpoint": 15.7,
     "mean_pmax": 5.9,
     "mean_r2": "0.98 (median)",
-    "notes": "The Q0 was an observed intensity value, not model-derived."
+    "notes": "The Q0 was an observed intensity value, not model-derived.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Garcia-Perez2022-cig",
@@ -3877,7 +3973,8 @@
     "mean_breakpoint": 11.8,
     "mean_pmax": 4.89,
     "mean_r2": "0.97 (median)",
-    "notes": "In the paper, the authors' affiliation is University of Oviedo, Spain, but it does not explicitly state if the participants were recruited in Spain."
+    "notes": "In the paper, the authors' affiliation is University of Oviedo, Spain, but it does not explicitly state if the participants were recruited in Spain.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Garcia-Perez2023",
@@ -3917,7 +4014,8 @@
     "mean_breakpoint": 4.47,
     "mean_pmax": 2.1,
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Food & Nutrition"
   },
   {
     "study_id": "Gaume2022-alc",
@@ -3957,7 +4055,8 @@
     "mean_breakpoint": "20 (median)",
     "mean_pmax": "6 (median)",
     "mean_r2": 0.79,
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Gebru2023-alc",
@@ -3997,7 +4096,8 @@
     "mean_breakpoint": 10.4,
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Gebru2023-can",
@@ -4037,7 +4137,8 @@
     "mean_breakpoint": 12.2,
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Cannabis"
   },
   {
     "study_id": "Gebru2024-cond",
@@ -4077,7 +4178,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "I coded the commodity domain as Infectious Disease Prevention instead of Reproductive Health because the paper framed condom use as part of HIV/STI prevention. \n\nFor R², ranges were reported.\nMost-want-sex-with partner: R² = .91 to .98\nLeast-STD partner: R² = .93 to .98"
+    "notes": "I coded the commodity domain as Infectious Disease Prevention instead of Reproductive Health because the paper framed condom use as part of HIV/STI prevention. \n\nFor R², ranges were reported.\nMost-want-sex-with partner: R² = .91 to .98\nLeast-STD partner: R² = .93 to .98",
+    "commodity_category": "Health & Prevention"
   },
   {
     "study_id": "Gentile2012",
@@ -4117,7 +4219,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": 6.26,
     "mean_r2": 0.981,
-    "notes": "This study conducted two experiments with 2 HPTs on the same commodity. \nThe first HPT had 14 prices from $0 to $10 and the second HPT had 19 prices from $0 to $15.\n\nAveraged the reported values for each indices across 8 conditions (4 in each experiment). Averaged the mean ages and recorded the composite sample size."
+    "notes": "This study conducted two experiments with 2 HPTs on the same commodity. \nThe first HPT had 14 prices from $0 to $10 and the second HPT had 19 prices from $0 to $15.\n\nAveraged the reported values for each indices across 8 conditions (4 in each experiment). Averaged the mean ages and recorded the composite sample size.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Gex2022-alc",
@@ -4157,7 +4260,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": 0.9,
-    "notes": "The paper stated that \"sample mean and median R² values ranged from 0.89 to 0.91 across timepoints\" so I averaged these values for Mean R2. \n\nFor mean intensity, I averaged 9 reported values (3 conditions across 3 timepoints)."
+    "notes": "The paper stated that \"sample mean and median R² values ranged from 0.89 to 0.91 across timepoints\" so I averaged these values for Mean R2. \n\nFor mean intensity, I averaged 9 reported values (3 conditions across 3 timepoints).",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Gilbert2014-alc",
@@ -4197,7 +4301,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "González-Roz2020-cig",
@@ -4237,7 +4342,8 @@
     "mean_breakpoint": 0.84,
     "mean_pmax": 0.36,
     "mean_r2": "NR",
-    "notes": "The paper reported that the values are \"back tranformed to log10.\""
+    "notes": "The paper reported that the values are \"back tranformed to log10.\"",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "González-Roz2019-cig",
@@ -4277,7 +4383,8 @@
     "mean_breakpoint": 14.26,
     "mean_pmax": 5.54,
     "mean_r2": 0.97,
-    "notes": "Averaged the reported values for the demand indices across 2 groups."
+    "notes": "Averaged the reported values for the demand indices across 2 groups.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "González-Roz2019-cig",
@@ -4317,7 +4424,8 @@
     "mean_breakpoint": 0.82,
     "mean_pmax": 0.36,
     "mean_r2": "0.97 (median)",
-    "notes": "NR. averaged reported group values for indices."
+    "notes": "NR. averaged reported group values for indices.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "González-Roz2021-alc",
@@ -4357,7 +4465,8 @@
     "mean_breakpoint": 8.58,
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "The paper reports the HPT currency in both USD and EUR. Here, I coded it as EUR since the study took place in Spain."
+    "notes": "The paper reports the HPT currency in both USD and EUR. Here, I coded it as EUR since the study took place in Spain.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "González-Roz2021a-cig",
@@ -4397,7 +4506,8 @@
     "mean_breakpoint": 3.715,
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "The study featured two samples, the characteristics of which I averaged and reported:\n\nSample Sizes: 269; 244\nPopulation: General community sample; young adult binge drinkers\nMean Age: 36.45; 21.36"
+    "notes": "The study featured two samples, the characteristics of which I averaged and reported:\n\nSample Sizes: 269; 244\nPopulation: General community sample; young adult binge drinkers\nMean Age: 36.45; 21.36",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "González-Roz2021b-cig",
@@ -4437,7 +4547,8 @@
     "mean_breakpoint": 6.69,
     "mean_pmax": 2.77,
     "mean_r2": "NR",
-    "notes": "The study authors are affiliated with the university in Spain and the CPT currency is in USD, but it is not explicitly stated where participants are recruited from. I coded the region as NR. \n\nAlso, the paper define elasticity as (1/α) and re\nports a mean elasticity value of 0.0174. I reported this as alpha."
+    "notes": "The study authors are affiliated with the university in Spain and the CPT currency is in USD, but it is not explicitly stated where participants are recruited from. I coded the region as NR. \n\nAlso, the paper define elasticity as (1/α) and re\nports a mean elasticity value of 0.0174. I reported this as alpha.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Gonzalez-Roz2024-can",
@@ -4477,7 +4588,8 @@
     "mean_breakpoint": 3.78,
     "mean_pmax": 2.12,
     "mean_r2": "0.905 (median)",
-    "notes": "The study featured 2 HPTs on the same commodity (cannabis) used by the same sample, so i averaged the indices."
+    "notes": "The study featured 2 HPTs on the same commodity (cannabis) used by the same sample, so i averaged the indices.",
+    "commodity_category": "Cannabis"
   },
   {
     "study_id": "GonzalezRoz2020-cig",
@@ -4517,7 +4629,8 @@
     "mean_breakpoint": 3.18,
     "mean_pmax": 1.88,
     "mean_r2": "0.96 (aggregate)",
-    "notes": "The paper states that the reported indices are mean ± SEM of square-root-transformed values."
+    "notes": "The paper states that the reported indices are mean ± SEM of square-root-transformed values.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Goodyear2022-alc",
@@ -4557,7 +4670,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "0.99 (aggregate)",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Grace2015-cig",
@@ -4597,7 +4711,8 @@
     "mean_breakpoint": 1.52,
     "mean_pmax": "NR",
     "mean_r2": 0.74,
-    "notes": "The paper reported that \"The fit of Hursh and Silberberg’s model to the average data is also shown in Figure 1. The model fit the data very well, accounting for 89.8% of the variance with α = 0.006. Fits to individual data were more variable, but the model still gave a reasonably good description of the results, accounting for 74% of the variance (mean α = 0.02).\"\n\nSo I coded R2 as 0.74."
+    "notes": "The paper reported that \"The fit of Hursh and Silberberg’s model to the average data is also shown in Figure 1. The model fit the data very well, accounting for 89.8% of the variance with α = 0.006. Fits to individual data were more variable, but the model still gave a reasonably good description of the results, accounting for 74% of the variance (mean α = 0.02).\"\n\nSo I coded R2 as 0.74.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Grace2015a-cig",
@@ -4637,7 +4752,8 @@
     "mean_breakpoint": 1.46,
     "mean_pmax": "NR",
     "mean_r2": 0.733,
-    "notes": "Averaged the reported demand indices."
+    "notes": "Averaged the reported demand indices.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Grace2015b-cig",
@@ -4677,7 +4793,8 @@
     "mean_breakpoint": 1.45,
     "mean_pmax": "NR",
     "mean_r2": 0.73,
-    "notes": "The study used 3 versions of the same-commodity HPT, each with different price ranges:\n\nNZ$0-NZ$5.00 \nNZ$2.00-NZ$214.00 \nNZ$4.00-NZ$357.00 \n\nI recorded lowest price as 0 and highest price as 357.\n\nAlso, I inferred the R2 value from the statement that the model accounted for 73% of the variance for individual data. \n\nThirdly, the overall sample size is 357 but the different analyses have different 'N' sizes."
+    "notes": "The study used 3 versions of the same-commodity HPT, each with different price ranges:\n\nNZ$0-NZ$5.00 \nNZ$2.00-NZ$214.00 \nNZ$4.00-NZ$357.00 \n\nI recorded lowest price as 0 and highest price as 357.\n\nAlso, I inferred the R2 value from the statement that the model accounted for 73% of the variance for individual data. \n\nThirdly, the overall sample size is 357 but the different analyses have different 'N' sizes.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Gray2014-alc",
@@ -4717,7 +4834,8 @@
     "mean_breakpoint": 14.04,
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Gray2017-cig",
@@ -4757,7 +4875,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "The paper lists 30 prices for the HPT but also says \"22 different prices\". I recorded 30."
+    "notes": "The paper lists 30 prices for the HPT but also says \"22 different prices\". I recorded 30.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Green2018-cig",
@@ -4797,7 +4916,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "The study did not explicitly mention that aggregate analysis was carried out. I coded \"Yes\" for it strictly because of the demand curve in Figure 3."
+    "notes": "The study did not explicitly mention that aggregate analysis was carried out. I coded \"Yes\" for it strictly because of the demand curve in Figure 3.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Green2021-alc",
@@ -4837,7 +4957,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Green2021-cig",
@@ -4877,7 +4998,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Greenwald2021-can",
@@ -4917,7 +5039,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "The paper uses a different demand model (Winger and Hursh, 1995) and derives demand intensity (L) instead of Q0. I reported intensity as \"No\" and the mean value as \"NR\". \n\nAlso, the paper contains multiple commodities (more than 12) but the only the marijuana own-price HPT has demand curves fitted. The other commodities are examined primarily through cross-price/own-price purchasing."
+    "notes": "The paper uses a different demand model (Winger and Hursh, 1995) and derives demand intensity (L) instead of Q0. I reported intensity as \"No\" and the mean value as \"NR\". \n\nAlso, the paper contains multiple commodities (more than 12) but the only the marijuana own-price HPT has demand curves fitted. The other commodities are examined primarily through cross-price/own-price purchasing.",
+    "commodity_category": "Cannabis"
   },
   {
     "study_id": "Gunawan2025-cig",
@@ -4957,7 +5080,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": 0.965,
-    "notes": "Averaged the reported mean ages and R² values for 2 groups. \nThe price variable for this HPT was time, not money. There were 21 levels from 0 minutes to 48 hours. The commodity had one fixed price. \nThe demand indices were reported graphically."
+    "notes": "Averaged the reported mean ages and R² values for 2 groups. \nThe price variable for this HPT was time, not money. There were 21 levels from 0 minutes to 48 hours. The commodity had one fixed price. \nThe demand indices were reported graphically.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Gunawan2025-food",
@@ -4997,7 +5121,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": 0.98,
-    "notes": "Same as above"
+    "notes": "Same as above",
+    "commodity_category": "Food & Nutrition"
   },
   {
     "study_id": "Gunawan2025-tp",
@@ -5037,7 +5162,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": 0.935,
-    "notes": "Same as above"
+    "notes": "Same as above",
+    "commodity_category": "Household & Personal Care"
   },
   {
     "study_id": "Gunnarsson2026",
@@ -5077,7 +5203,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "0.943 (median)",
-    "notes": "The study has 4 conditions which it compares, but there was no random assignment explicitly stated. \n\nParameter estimates (alpha and Q0) are presented visually."
+    "notes": "The study has 4 conditions which it compares, but there was no random assignment explicitly stated. \n\nParameter estimates (alpha and Q0) are presented visually.",
+    "commodity_category": "Leisure & Entertainment"
   },
   {
     "study_id": "Hack2023",
@@ -5117,7 +5244,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "9.12 (aggregate)",
     "mean_r2": "0.834 (aggregate)",
-    "notes": "Averaged the reported median ages for 2 groups.\nThe price variable in this study is time, from 0 to 45 minutes. \n\nBP1 is only reported for the model with s ≤ 2. The avearaged demand indice values for model for s=1 are reported here."
+    "notes": "Averaged the reported median ages for 2 groups.\nThe price variable in this study is time, from 0 to 45 minutes. \n\nBP1 is only reported for the model with s ≤ 2. The avearaged demand indice values for model for s=1 are reported here.",
+    "commodity_category": "Behavioral (non-substance)"
   },
   {
     "study_id": "Harsin2021-cond",
@@ -5157,7 +5285,8 @@
     "mean_breakpoint": 21.21,
     "mean_pmax": 14.86,
     "mean_r2": 0.965,
-    "notes": "Averaged the reported demand indices values for 2 groups."
+    "notes": "Averaged the reported demand indices values for 2 groups.",
+    "commodity_category": "Health & Prevention"
   },
   {
     "study_id": "Hayashi2019",
@@ -5197,7 +5326,8 @@
     "mean_breakpoint": 156.25,
     "mean_pmax": 26.25,
     "mean_r2": 0.99,
-    "notes": "Study has two groups (High-TWD n=25, Low-TWD n=24) and two delay conditions (15-min, 60-min) a 2×2 design. Sample size, mean age, Q0, Breakpoint, Pmax, and R² averaged across all four group×condition cells. Mean Alpha left NR as only log-transformed α reported."
+    "notes": "Study has two groups (High-TWD n=25, Low-TWD n=24) and two delay conditions (15-min, 60-min) a 2×2 design. Sample size, mean age, Q0, Breakpoint, Pmax, and R² averaged across all four group×condition cells. Mean Alpha left NR as only log-transformed α reported.",
+    "commodity_category": "Behavioral (non-substance)"
   },
   {
     "study_id": "Heckman2017-cig",
@@ -5237,7 +5367,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "The paper's demand analysis was based on the normalized area under the curve (AUC)."
+    "notes": "The paper's demand analysis was based on the normalized area under the curve (AUC).",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Heckman2019-cig",
@@ -5277,7 +5408,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "0.88 (median)",
-    "notes": "For elasticity, the paper reported that \"Elasticity estimates (non-transformed means across vaping status groups ranged from 0.031 to 0.035 for daily smokers and 0.059 to 0.094 for non-daily smokers) \""
+    "notes": "For elasticity, the paper reported that \"Elasticity estimates (non-transformed means across vaping status groups ranged from 0.031 to 0.035 for daily smokers and 0.059 to 0.094 for non-daily smokers) \"",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Herschl2012-alc",
@@ -5317,7 +5449,8 @@
     "mean_breakpoint": 5.73,
     "mean_pmax": 3.36,
     "mean_r2": 0.66,
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Higgins2017-cig",
@@ -5357,7 +5490,8 @@
     "mean_breakpoint": "0.90 (median)",
     "mean_pmax": "0.50 (median)",
     "mean_r2": "0.83 (median)",
-    "notes": "The study reports both empirical and derived Q0. I reported the derived Q0."
+    "notes": "The study reports both empirical and derived Q0. I reported the derived Q0.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Higgins2017-cig",
@@ -5397,7 +5531,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "0.97 (aggregate)",
-    "notes": "Averaged the reported alpha and R2 values across doses. \n\nThe paper did not explicitly state its demand model but it cited Koffarnus et al. (2015) when talking about the demand curve that was fit. I coded this as the Koffarnus exponentiated demand model."
+    "notes": "Averaged the reported alpha and R2 values across doses. \n\nThe paper did not explicitly state its demand model but it cited Koffarnus et al. (2015) when talking about the demand curve that was fit. I coded this as the Koffarnus exponentiated demand model.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Higgins2018-cig",
@@ -5437,7 +5572,8 @@
     "mean_breakpoint": 1.97,
     "mean_pmax": 0.78,
     "mean_r2": "NR",
-    "notes": "The paper reported demand indices by HSI dependence severity and then by nicotine dose.\n\nI averaged the mean demand indices values reported by nicotine dose because the note under table 4 stated \"Lower panel shows mean ratings by dose averaged across participants.\""
+    "notes": "The paper reported demand indices by HSI dependence severity and then by nicotine dose.\n\nI averaged the mean demand indices values reported by nicotine dose because the note under table 4 stated \"Lower panel shows mean ratings by dose averaged across participants.\"",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Higgins2020-cig",
@@ -5477,7 +5613,8 @@
     "mean_breakpoint": 2.51,
     "mean_pmax": 1.51,
     "mean_r2": "0.79 (median)",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Higgins2022-cig",
@@ -5517,7 +5654,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Hindocha2017-can",
@@ -5557,7 +5695,8 @@
     "mean_breakpoint": 194.67,
     "mean_pmax": 90.44,
     "mean_r2": "NR",
-    "notes": "Averaged demand indices across 4 different conditions. \n\nNeither individual nor aggregate analysis was stated explicitly but I interpreted the indices reported for the 4 different conditions as indicative of aggregate analysis."
+    "notes": "Averaged demand indices across 4 different conditions. \n\nNeither individual nor aggregate analysis was stated explicitly but I interpreted the indices reported for the 4 different conditions as indicative of aggregate analysis.",
+    "commodity_category": "Cannabis"
   },
   {
     "study_id": "Hindocha2017-cig",
@@ -5597,7 +5736,8 @@
     "mean_breakpoint": 113.29,
     "mean_pmax": 67.62,
     "mean_r2": "NR",
-    "notes": "Averaged demand indices across 4 different conditions. \n\nNeither individual nor aggregate analysis was stated explicitly but I interpreted the indices reported for the 4 different conditions as indicative of aggregate analysis."
+    "notes": "Averaged demand indices across 4 different conditions. \n\nNeither individual nor aggregate analysis was stated explicitly but I interpreted the indices reported for the 4 different conditions as indicative of aggregate analysis.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Jacobs1999-cig",
@@ -5637,7 +5777,8 @@
     "mean_breakpoint": "11 (median)",
     "mean_pmax": "1.96 (median)",
     "mean_r2": "NR",
-    "notes": "Multiple HPTs reported (cigarettes and heroin)."
+    "notes": "Multiple HPTs reported (cigarettes and heroin).",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Jacobs1999-heroi",
@@ -5677,7 +5818,8 @@
     "mean_breakpoint": "140 (median)",
     "mean_pmax": "38.30 (median)",
     "mean_r2": "NR",
-    "notes": "Two HPT commodities (heroin and cigarettes) reported. Was conducted before the exponential demand model; therefore, Alpha and Q0 were not reported"
+    "notes": "Two HPT commodities (heroin and cigarettes) reported. Was conducted before the exponential demand model; therefore, Alpha and Q0 were not reported",
+    "commodity_category": "Opioids"
   },
   {
     "study_id": "Jarmolowicz2016-sex",
@@ -5717,7 +5859,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "No demand model (exponential/exponentiated) was fit; only raw consumption and breakpoint were analyzed."
+    "notes": "No demand model (exponential/exponentiated) was fit; only raw consumption and breakpoint were analyzed.",
+    "commodity_category": "Behavioral (non-substance)"
   },
   {
     "study_id": "Jarmolowicz2020",
@@ -5757,7 +5900,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "0.996 (aggregate)",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Health & Prevention"
   },
   {
     "study_id": "Jarmolowicz2023-dmt",
@@ -5797,7 +5941,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": 0.95,
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Health & Prevention"
   },
   {
     "study_id": "Johnson2017-cig",
@@ -5837,7 +5982,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": 0.975,
-    "notes": "Averaged the reported demand indice values for the Tobacco cigarette HPT and the e-cigarette HPT. \n\nThe study used observed consumption at $0.01 as demand intensity (100 puffs), not a fitted Q0, so i coded it as NR."
+    "notes": "Averaged the reported demand indice values for the Tobacco cigarette HPT and the e-cigarette HPT. \n\nThe study used observed consumption at $0.01 as demand intensity (100 puffs), not a fitted Q0, so i coded it as NR.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Johnson2017-ecig",
@@ -5877,7 +6023,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": 0.98,
-    "notes": "This is fundamentally a cross-commodity substitution study, not three independent single-commodity demand studies, the paper's central metric is cross-price elasticity (how consumption of one fixed-price commodity changes when a second commodity's price is manipulated). Therefore, values entered above reflect the single-commodity condition only"
+    "notes": "This is fundamentally a cross-commodity substitution study, not three independent single-commodity demand studies, the paper's central metric is cross-price elasticity (how consumption of one fixed-price commodity changes when a second commodity's price is manipulated). Therefore, values entered above reflect the single-commodity condition only",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Johnson2017-gum",
@@ -5917,7 +6064,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "This is fundamentally a cross-commodity substitution study, not three independent single-commodity demand studies, the paper's central metric is cross-price elasticity (how consumption of one fixed-price commodity changes when a second commodity's price is manipulated). Therefore, values entered above reflect the single-commodity condition only"
+    "notes": "This is fundamentally a cross-commodity substitution study, not three independent single-commodity demand studies, the paper's central metric is cross-price elasticity (how consumption of one fixed-price commodity changes when a second commodity's price is manipulated). Therefore, values entered above reflect the single-commodity condition only",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Johnson2017-tcig",
@@ -5957,7 +6105,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": 0.97,
-    "notes": "This is fundamentally a cross-commodity substitution study, not three independent single-commodity demand studies, the paper's central metric is cross-price elasticity (how consumption of one fixed-price commodity changes when a second commodity's price is manipulated). Therefore, values entered above reflect the single-commodity condition only"
+    "notes": "This is fundamentally a cross-commodity substitution study, not three independent single-commodity demand studies, the paper's central metric is cross-price elasticity (how consumption of one fixed-price commodity changes when a second commodity's price is manipulated). Therefore, values entered above reflect the single-commodity condition only",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Joyner2019-alc",
@@ -5997,7 +6146,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Kaplan2017-alc",
@@ -6037,7 +6187,8 @@
     "mean_breakpoint": 13.48,
     "mean_pmax": "NR",
     "mean_r2": "0.988 (aggregate)",
-    "notes": "Averaged reported demand indice values. \n\nPaper reported BP0 and BP1; I recorded BP0 for breakpoint."
+    "notes": "Averaged reported demand indice values. \n\nPaper reported BP0 and BP1; I recorded BP0 for breakpoint.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Kaplan2018-alc",
@@ -6077,7 +6228,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": 0.79,
-    "notes": "The paper reported that the study used both demand equations."
+    "notes": "The paper reported that the study used both demand equations.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Kaplan2019-cig",
@@ -6117,7 +6269,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "0.97 (median)",
-    "notes": "The study comprised three experiments, so I averaged the sample sizes, the mean age, and the reported demand indices."
+    "notes": "The study comprised three experiments, so I averaged the sample sizes, the mean age, and the reported demand indices.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Kiselica2013-alc",
@@ -6157,7 +6310,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "0.983 (aggregate)",
-    "notes": "Observed Intensity = 6.17."
+    "notes": "Observed Intensity = 6.17.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Koffarnus2015a-cig",
@@ -6197,7 +6351,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "Participant region not explicitly stated, but assumed U.S. from author affiliations."
+    "notes": "Participant region not explicitly stated, but assumed U.S. from author affiliations.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Koffarnus2015b-cig",
@@ -6237,7 +6392,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "0.75 (aggregate)",
     "mean_r2": "0.983 (aggregate)",
-    "notes": "Averaged reported values for demand indices."
+    "notes": "Averaged reported values for demand indices.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Kulbida2025-alc",
@@ -6277,7 +6433,8 @@
     "mean_breakpoint": 41.78,
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "Two groups (Control/Experimental) averaged; average is unweighted, exact per-group n not reported. Koffarnus & Bickel (2014) mentioned but tied to delay discounting task, not HPT demand model."
+    "notes": "Two groups (Control/Experimental) averaged; average is unweighted, exact per-group n not reported. Koffarnus & Bickel (2014) mentioned but tied to delay discounting task, not HPT demand model.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Kulbida2025-food",
@@ -6317,7 +6474,8 @@
     "mean_breakpoint": 14.7,
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "Two groups (Control/Experimental) averaged; average is unweighted, exact per-group n not reported. Koffarnus & Bickel (2014) mentioned but tied to delay discounting task, not HPT demand model."
+    "notes": "Two groups (Control/Experimental) averaged; average is unweighted, exact per-group n not reported. Koffarnus & Bickel (2014) mentioned but tied to delay discounting task, not HPT demand model.",
+    "commodity_category": "Food & Nutrition"
   },
   {
     "study_id": "Kurnellas2024-alc",
@@ -6357,7 +6515,8 @@
     "mean_breakpoint": "12.15 (aggregate)",
     "mean_pmax": "6.93 (aggregate)",
     "mean_r2": "NR",
-    "notes": "Averaged demand indice values reported across 4 groups."
+    "notes": "Averaged demand indice values reported across 4 groups.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Lawn2018-cig",
@@ -6397,7 +6556,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "Participant region not explicitly stated, but assumed U.K. from author affiliations. \n\nAveraged mean ages."
+    "notes": "Participant region not explicitly stated, but assumed U.K. from author affiliations. \n\nAveraged mean ages.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Lemley2016-alc",
@@ -6437,7 +6597,8 @@
     "mean_breakpoint": "7.25 (median)",
     "mean_pmax": "4.29 (median)",
     "mean_r2": 0.84,
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Lemley2017-alc",
@@ -6477,7 +6638,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "0.98 (aggregate)",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Liao2013-cig",
@@ -6517,7 +6679,8 @@
     "mean_breakpoint": 4.0,
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "Participant region not explicitly stated. I inferred from the authors' affiliations."
+    "notes": "Participant region not explicitly stated. I inferred from the authors' affiliations.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Luciano2020-alc",
@@ -6557,7 +6720,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Luehring-Jones2016-alc",
@@ -6597,7 +6761,8 @@
     "mean_breakpoint": 13.1,
     "mean_pmax": 7.4,
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "MacKillop2007-alc",
@@ -6637,7 +6802,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "0.86 (median)",
-    "notes": "The study reported an aggregate R² and a median individual R², rather than a mean.\n\nParticipant assignment was not explicitly reported for the Alcohol Purchase Task. Instead, the study reports that participants were randomized to one of two intervention conditions, but does not specify participant assignment for the Alcohol Purchase Task (See. pg 228, methods section)"
+    "notes": "The study reported an aggregate R² and a median individual R², rather than a mean.\n\nParticipant assignment was not explicitly reported for the Alcohol Purchase Task. Instead, the study reports that participants were randomized to one of two intervention conditions, but does not specify participant assignment for the Alcohol Purchase Task (See. pg 228, methods section)",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "MacKillop2008-cig",
@@ -6677,7 +6843,8 @@
     "mean_breakpoint": "6.54 (aggregate)",
     "mean_pmax": "1.04 (aggregate)",
     "mean_r2": "0.96 (median)",
-    "notes": "Averaged the values for breakpoint and pmax reported across 2 groups."
+    "notes": "Averaged the values for breakpoint and pmax reported across 2 groups.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "MacKillop2009-alc",
@@ -6717,7 +6884,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "MacKillop2010a-alc",
@@ -6757,7 +6925,8 @@
     "mean_breakpoint": 19.08,
     "mean_pmax": 0.65,
     "mean_r2": "0.94 (median)",
-    "notes": "Alpha: A parameter \"a\" (pg. 1601, Data analysis section) was used but not directly labeled alpha, since the study used the Hursh & Winger (1995) equation. \nConditions: Averaged the demand indice values reported across two conditions."
+    "notes": "Alpha: A parameter \"a\" (pg. 1601, Data analysis section) was used but not directly labeled alpha, since the study used the Hursh & Winger (1995) equation. \nConditions: Averaged the demand indice values reported across two conditions.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "MacKillop2010b-alc",
@@ -6797,7 +6966,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "0.91 (median)",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "MacKillop2011-cig",
@@ -6837,7 +7007,8 @@
     "mean_breakpoint": "3.33 (aggregate)",
     "mean_pmax": "1.21 (aggregate)",
     "mean_r2": "0.86 (median)",
-    "notes": "Participant region not explicitly stated, but assumed U.S. from author affiliations. \n\nAveraged reported demand indice values across 2 groups."
+    "notes": "Participant region not explicitly stated, but assumed U.S. from author affiliations. \n\nAveraged reported demand indice values across 2 groups.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "MacKillop2012a-cig",
@@ -6877,7 +7048,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": 0.24,
     "mean_r2": "0.75 (median)",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "MacKillop2012b-cig",
@@ -6917,7 +7089,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": 0.88,
-    "notes": "Averaged observed intensity = 5.48."
+    "notes": "Averaged observed intensity = 5.48.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "MacKillop2014-alc",
@@ -6957,7 +7130,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "MacKillop2016-cig",
@@ -6997,7 +7171,8 @@
     "mean_breakpoint": 5.26,
     "mean_pmax": "NR",
     "mean_r2": "0.86 (median)",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "MacKillop2019",
@@ -7037,7 +7212,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Other substances"
   },
   {
     "study_id": "Madden2010-cig",
@@ -7077,7 +7253,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "0.88 (median)",
-    "notes": "Averaged alpha and intensity values across 4 conditions."
+    "notes": "Averaged alpha and intensity values across 4 conditions.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Malkin2025",
@@ -7117,7 +7294,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "508.10 (median)",
     "mean_r2": "0.89 (median)",
-    "notes": "Q0 fixed/constrained to 100 rather than freely estimated."
+    "notes": "Q0 fixed/constrained to 100 rather than freely estimated.",
+    "commodity_category": "Other"
   },
   {
     "study_id": "Marsden2023-alc",
@@ -7157,7 +7335,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "There were two studies in this paper which used two versions of the same-commodity HPT. Study 1 used a sample in Canada. Study 2 used one in the U.S. \n\nSample Size:\nCanada = 117; U.S. = 89\nI reported the aggregate. \n\nMean Age:\nCanada: 34.69; U.S. = 41.35"
+    "notes": "There were two studies in this paper which used two versions of the same-commodity HPT. Study 1 used a sample in Canada. Study 2 used one in the U.S. \n\nSample Size:\nCanada = 117; U.S. = 89\nI reported the aggregate. \n\nMean Age:\nCanada: 34.69; U.S. = 41.35",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Martinetti2019-alc",
@@ -7197,7 +7376,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "6.30 (aggregate)",
     "mean_r2": "0.997 (aggregate)",
-    "notes": "The sample in the HPT demand analyses comprised 110 U.S. and 123 France participants. \n\nThe mean age of the U.S. sample was 19.46 and that of France was 21.25.\n\nAveraged the values of the reported demand indices across 6 total conditions."
+    "notes": "The sample in the HPT demand analyses comprised 110 U.S. and 123 France participants. \n\nThe mean age of the U.S. sample was 19.46 and that of France was 21.25.\n\nAveraged the values of the reported demand indices across 6 total conditions.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "McClure2013-cig",
@@ -7237,7 +7417,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "0.867 (median)",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "McDaniel2024-cig",
@@ -7277,7 +7458,8 @@
     "mean_breakpoint": 21.41,
     "mean_pmax": 1.98,
     "mean_r2": "0.85 (aggregate)",
-    "notes": "Averaged the reported values of the demand indices across 2 groups."
+    "notes": "Averaged the reported values of the demand indices across 2 groups.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "McDaniel2026",
@@ -7317,7 +7499,8 @@
     "mean_breakpoint": "653.8 (aggregate)",
     "mean_pmax": "814.2 (aggregate)",
     "mean_r2": "0.75 (aggregate)",
-    "notes": "The paper did not report alpha but it reported 1/α. (Veterans = 1.1; Nonveterans = 22).\n\nAveraged reported values for intensity, breakpoint, pmax, and R2 across 2 groups."
+    "notes": "The paper did not report alpha but it reported 1/α. (Veterans = 1.1; Nonveterans = 22).\n\nAveraged reported values for intensity, breakpoint, pmax, and R2 across 2 groups.",
+    "commodity_category": "Behavioral (non-substance)"
   },
   {
     "study_id": "McIntyre-Wood2022-can",
@@ -7357,7 +7540,8 @@
     "mean_breakpoint": 20.95,
     "mean_pmax": 13.48,
     "mean_r2": "0.83 (median)",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Cannabis"
   },
   {
     "study_id": "Mead-Morse2022-cig",
@@ -7397,7 +7581,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "0.93 (median)",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Mead-Morse2022-lcc",
@@ -7437,7 +7622,8 @@
     "mean_breakpoint": 8.4,
     "mean_pmax": 2.99,
     "mean_r2": "0.93 (median)",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Merrill2020-alc",
@@ -7477,7 +7663,8 @@
     "mean_breakpoint": 7.9,
     "mean_pmax": 5.08,
     "mean_r2": "0.824 (median)",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Meshesha2020a-alc",
@@ -7517,7 +7704,8 @@
     "mean_breakpoint": 44.35,
     "mean_pmax": 21.28,
     "mean_r2": "NR",
-    "notes": "The paper reported observed indices, not derived indices."
+    "notes": "The paper reported observed indices, not derived indices.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Meshesha2020b-alc",
@@ -7557,7 +7745,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Metrik2016-mar",
@@ -7597,7 +7786,8 @@
     "mean_breakpoint": 4.045,
     "mean_pmax": "NR",
     "mean_r2": "0.815 (median)",
-    "notes": "The study reported median individual R2 values across two conditions. I averaged this and reported the value. \n\nAveraged demand indices values  reported across 2 conditions."
+    "notes": "The study reported median individual R2 values across two conditions. I averaged this and reported the value. \n\nAveraged demand indices values  reported across 2 conditions.",
+    "commodity_category": "Cannabis"
   },
   {
     "study_id": "Miller2013a-alc",
@@ -7637,7 +7827,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "The analysis in the paper describes participants choosing options at different hypothetical prices. A demand model was not fit."
+    "notes": "The analysis in the paper describes participants choosing options at different hypothetical prices. A demand model was not fit.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Miller2023b-alc",
@@ -7677,7 +7868,8 @@
     "mean_breakpoint": "11.25 (aggregate)",
     "mean_pmax": "6.55 (aggregate)",
     "mean_r2": 0.96,
-    "notes": "Averaged demand indices values  reported across 3 conditions."
+    "notes": "Averaged demand indices values  reported across 3 conditions.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Minhas2020-alc",
@@ -7717,7 +7909,8 @@
     "mean_breakpoint": 14.26,
     "mean_pmax": 8.53,
     "mean_r2": "NR",
-    "notes": "Sample comprised 723 from Canada and 586 from U.S. \n\nMean ages: 21.44 (Canada) and 22.63 (United States)\n\nIntensity, Breakpoint, and Pmax values were observed not fitted."
+    "notes": "Sample comprised 723 from Canada and 586 from U.S. \n\nMean ages: 21.44 (Canada) and 22.63 (United States)\n\nIntensity, Breakpoint, and Pmax values were observed not fitted.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Minhas2021-can",
@@ -7757,7 +7950,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "Sample comprised 396 from Canada and 265 from U.S. \n\nMean ages: 21.41 (Canada) and 22.57 (United States)"
+    "notes": "Sample comprised 396 from Canada and 265 from U.S. \n\nMean ages: 21.41 (Canada) and 22.57 (United States)",
+    "commodity_category": "Cannabis"
   },
   {
     "study_id": "Morrell2021-alc",
@@ -7797,7 +7991,8 @@
     "mean_breakpoint": 11.62,
     "mean_pmax": 6.49,
     "mean_r2": "0.98 (Aggregate)",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Morrell2021-cppt",
@@ -7837,7 +8032,8 @@
     "mean_breakpoint": 17.72,
     "mean_pmax": 10.95,
     "mean_r2": "0.94 (Aggregate)",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Morris2017-alc",
@@ -7877,7 +8073,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "0.91 (median)",
-    "notes": "Out of the 844 sample size, 10 participants were subsequently excluded from demand curve modelling. So 834 was recorded as the sample size. \n\nAveraged the intensity values reported for both genders."
+    "notes": "Out of the 844 sample size, 10 participants were subsequently excluded from demand curve modelling. So 834 was recorded as the sample size. \n\nAveraged the intensity values reported for both genders.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Morris2018-alc",
@@ -7917,7 +8114,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Motschman2022-alc",
@@ -7957,7 +8155,8 @@
     "mean_breakpoint": 16.6,
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "Observed intensity = 7.47"
+    "notes": "Observed intensity = 7.47",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Mulhauser2018",
@@ -7997,7 +8196,8 @@
     "mean_breakpoint": 7.14,
     "mean_pmax": 2.89,
     "mean_r2": "0.93 (Aggregate)",
-    "notes": "Q0/Alpha: Paper reports Intensity and Elasticity, not Q0/Alpha. Matched based on definitions only. (pg. 4)\nTwo samples, one commodity: Paper has two samples (gen. pop. N=369; clinical N=39), same commodity, not a multi-commodity case. Only gen. pop. entered. (pg. 5–6, 11)\nCommodity Domain: \"Mental health\" is closest fit but may be weak; paper frames this as hypersexuality/impulse-control, not mental health per se. (pg. 3)"
+    "notes": "Q0/Alpha: Paper reports Intensity and Elasticity, not Q0/Alpha. Matched based on definitions only. (pg. 4)\nTwo samples, one commodity: Paper has two samples (gen. pop. N=369; clinical N=39), same commodity, not a multi-commodity case. Only gen. pop. entered. (pg. 5–6, 11)\nCommodity Domain: \"Mental health\" is closest fit but may be weak; paper frames this as hypersexuality/impulse-control, not mental health per se. (pg. 3)",
+    "commodity_category": "Behavioral (non-substance)"
   },
   {
     "study_id": "Murphy2006-alc",
@@ -8037,7 +8237,8 @@
     "mean_breakpoint": 6.22,
     "mean_pmax": 5.14,
     "mean_r2": 0.84,
-    "notes": "Derived values of demand indices are recorded here instead of observed values."
+    "notes": "Derived values of demand indices are recorded here instead of observed values.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Murphy2009-alc",
@@ -8077,7 +8278,8 @@
     "mean_breakpoint": 7.09,
     "mean_pmax": 4.28,
     "mean_r2": 0.87,
-    "notes": "The paper recorded 3.8 as the k value for the Hursh & Silberberg exponential model.\n\nThe paper reports an individual-participant mean R² value for each model. Hursh et al. 1989 model: 0.85\nHursh & Silberberg exponential model: 0.89\n\nAveraged the reported demand indices values for the 2 models. \nReported based on the derived values, not the observed values (except for breakpoint)."
+    "notes": "The paper recorded 3.8 as the k value for the Hursh & Silberberg exponential model.\n\nThe paper reports an individual-participant mean R² value for each model. Hursh et al. 1989 model: 0.85\nHursh & Silberberg exponential model: 0.89\n\nAveraged the reported demand indices values for the 2 models. \nReported based on the derived values, not the observed values (except for breakpoint).",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Murphy2011",
@@ -8117,7 +8319,8 @@
     "mean_breakpoint": 8.87,
     "mean_pmax": 10.95,
     "mean_r2": 0.64,
-    "notes": "The means of the demand indices were reported in the paper, so I marked them 'yes.'"
+    "notes": "The means of the demand indices were reported in the paper, so I marked them 'yes.'",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Murphy2013-alc",
@@ -8157,7 +8360,8 @@
     "mean_breakpoint": 9.05,
     "mean_pmax": 3.84,
     "mean_r2": 0.6,
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Murphy2014-alc",
@@ -8197,7 +8401,8 @@
     "mean_breakpoint": 7.45,
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "The paper reported demand indices values in a table and (a different) set of values for one condition in the text. This contradiction is flagged, but the values in the table are recorded here. \n\nAveraged the reported values of demand indices in the table across conditions and sessions."
+    "notes": "The paper reported demand indices values in a table and (a different) set of values for one condition in the text. This contradiction is flagged, but the values in the table are recorded here. \n\nAveraged the reported values of demand indices in the table across conditions and sessions.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Murphy2015-alc",
@@ -8237,7 +8442,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "Averaged reported intensity values across 3 conditions and 2 sessions each."
+    "notes": "Averaged reported intensity values across 3 conditions and 2 sessions each.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Murphy2016-cig",
@@ -8277,7 +8483,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "0.99 (Aggregate)",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Murphy2016-food",
@@ -8317,7 +8524,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "0.99 (Aggregate)",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Food & Nutrition"
   },
   {
     "study_id": "Murphy2017-cig",
@@ -8357,7 +8565,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Murphy2019-cig",
@@ -8397,7 +8606,8 @@
     "mean_breakpoint": 2.79,
     "mean_pmax": "NR",
     "mean_r2": "0.885 (median)",
-    "notes": "The paper reported two studies: study 1 had 80 adult smokers with SUDs and study 2 had 81 adolescent smokers. \n\nAveraged the reported individual median R² values for adults (0.86) and adolescents (0.91). \nAveraged the reported demand indices values across 2 samples."
+    "notes": "The paper reported two studies: study 1 had 80 adult smokers with SUDs and study 2 had 81 adolescent smokers. \n\nAveraged the reported individual median R² values for adults (0.86) and adolescents (0.91). \nAveraged the reported demand indices values across 2 samples.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Naude2020-alc",
@@ -8437,7 +8647,8 @@
     "mean_breakpoint": 6.74,
     "mean_pmax": 3.81,
     "mean_r2": "0.98 (aggregate)",
-    "notes": "The paper reports both empirical and model-derived Pmax values, but I reported the empirical value here since those are participant means."
+    "notes": "The paper reports both empirical and model-derived Pmax values, but I reported the empirical value here since those are participant means.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Naude2020-fid",
@@ -8477,7 +8688,8 @@
     "mean_breakpoint": 103.97,
     "mean_pmax": 70.52,
     "mean_r2": "0.97 (aggregate)",
-    "notes": "The Q0 is reported as 97% so I converted it to decimal to report it. \n\nThe paper reports both empirical and model-derived Pmax values, but I reported the empirical value here since those are participant means."
+    "notes": "The Q0 is reported as 97% so I converted it to decimal to report it. \n\nThe paper reports both empirical and model-derived Pmax values, but I reported the empirical value here since those are participant means.",
+    "commodity_category": "Behavioral (non-substance)"
   },
   {
     "study_id": "Naudé2021-alc",
@@ -8517,7 +8729,8 @@
     "mean_breakpoint": 6.0,
     "mean_pmax": 3.62,
     "mean_r2": "0.97 (aggregate)",
-    "notes": "Elasticity is reported as 1/α.\n\nFor the Alcohol Dual-Use Group:\nIntensity = 10.53\nBreakpoint = 7.17\nPmax = 4.09"
+    "notes": "Elasticity is reported as 1/α.\n\nFor the Alcohol Dual-Use Group:\nIntensity = 10.53\nBreakpoint = 7.17\nPmax = 4.09",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Naudé2021-can",
@@ -8557,7 +8770,8 @@
     "mean_breakpoint": 20.13,
     "mean_pmax": 11.77,
     "mean_r2": "0.99 (aggregate)",
-    "notes": "Elasticity is reported as 1/α. The paper reported demand index values for Alcohol Only (HPT) and values for Alcohol and Cannabis Dual-Use. \n\nThe Alcohol-only indices are reported in the row above, but the indices reported in this row are for the Cannabis Dual-Use group."
+    "notes": "Elasticity is reported as 1/α. The paper reported demand index values for Alcohol Only (HPT) and values for Alcohol and Cannabis Dual-Use. \n\nThe Alcohol-only indices are reported in the row above, but the indices reported in this row are for the Cannabis Dual-Use group.",
+    "commodity_category": "Cannabis"
   },
   {
     "study_id": "Naude2022-alc",
@@ -8597,7 +8811,8 @@
     "mean_breakpoint": 22.81,
     "mean_pmax": 4.99,
     "mean_r2": "0.95 (aggregate)",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Nieto2020-alc",
@@ -8637,7 +8852,8 @@
     "mean_breakpoint": 46.69,
     "mean_pmax": 12.41,
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Nighbor2019-cig",
@@ -8677,7 +8893,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Nighbor2021-cig",
@@ -8717,7 +8934,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Nighbor2020-cig",
@@ -8757,7 +8975,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Noyes2018-alc",
@@ -8797,7 +9016,8 @@
     "mean_breakpoint": 7.82,
     "mean_pmax": 5.66,
     "mean_r2": "0.95 (aggregate)",
-    "notes": "Participant region not explicitly stated. Inferred from authors' affiliations."
+    "notes": "Participant region not explicitly stated. Inferred from authors' affiliations.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "O’Connor2016-cig",
@@ -8837,7 +9057,8 @@
     "mean_breakpoint": 18.6,
     "mean_pmax": 5.18,
     "mean_r2": "NR",
-    "notes": "Participant region not explicitly stated. Inferred from authors' affiliations."
+    "notes": "Participant region not explicitly stated. Inferred from authors' affiliations.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "OConnor2012a-cig",
@@ -8877,7 +9098,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": 0.986,
-    "notes": "Averaged the reported demand indices values across 2 groups."
+    "notes": "Averaged the reported demand indices values across 2 groups.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "OConnor2012a-mcig",
@@ -8917,7 +9139,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": 0.972,
-    "notes": "Averaged the reported demand indices values across 2 groups."
+    "notes": "Averaged the reported demand indices values across 2 groups.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "OConnor2014-cig",
@@ -8957,7 +9180,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "OConnor2014-diss",
@@ -8997,7 +9221,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "OConnor2014-loz",
@@ -9037,7 +9262,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "OConnor2014-snus",
@@ -9077,7 +9303,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Ortelli2021-alc",
@@ -9117,7 +9344,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": 6.775,
     "mean_r2": "0.9991 (aggregate)",
-    "notes": "The paper reported analytical and approximated values for Pmax, which were averaged. \nThis study featured an APT and an \"APT choice\". Only the APT was recorded in this index."
+    "notes": "The paper reported analytical and approximated values for Pmax, which were averaged. \nThis study featured an APT and an \"APT choice\". Only the APT was recorded in this index.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Owens2015a-alc",
@@ -9157,7 +9385,8 @@
     "mean_breakpoint": 26.041,
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "Averaged the reported demand indices values across 2 conditions."
+    "notes": "Averaged the reported demand indices values across 2 conditions.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Panchalingam2023-can",
@@ -9197,7 +9426,8 @@
     "mean_breakpoint": 75.33,
     "mean_pmax": 35.5,
     "mean_r2": "0.43 (aggregate)",
-    "notes": "Same as above."
+    "notes": "Same as above.",
+    "commodity_category": "Cannabis"
   },
   {
     "study_id": "Panchalingam2023-canfl",
@@ -9237,7 +9467,8 @@
     "mean_breakpoint": 32.9,
     "mean_pmax": 15.59,
     "mean_r2": "0.43 (aggregate)",
-    "notes": "The paper reported both derived and observed Q0 and pmax values, but I recorded the observed values here because the table note stated that \"Observed demand indices were calculated by taking the mean of the individual demand \nindex values.\""
+    "notes": "The paper reported both derived and observed Q0 and pmax values, but I recorded the observed values here because the table note stated that \"Observed demand indices were calculated by taking the mean of the individual demand \nindex values.\"",
+    "commodity_category": "Cannabis"
   },
   {
     "study_id": "Patel2019-can",
@@ -9277,7 +9508,8 @@
     "mean_breakpoint": 26.04,
     "mean_pmax": 15.94,
     "mean_r2": "NR",
-    "notes": "Averaged reported demand index values across 2 groups."
+    "notes": "Averaged reported demand index values across 2 groups.",
+    "commodity_category": "Cannabis"
   },
   {
     "study_id": "Patel2023-alc",
@@ -9317,7 +9549,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "0.984 (aggregate)",
-    "notes": "The paper reports a range for R² (.98–.99) in the text but states the demand indice values for pre- and post- across 3 conditions (6 reported values for one index) in the figurre, which I averaged and recorded here."
+    "notes": "The paper reports a range for R² (.98–.99) in the text but states the demand indice values for pre- and post- across 3 conditions (6 reported values for one index) in the figurre, which I averaged and recorded here.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Peters2017-cig",
@@ -9357,7 +9590,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": 0.72,
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Peters2017-can",
@@ -9397,7 +9631,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": 0.71,
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Cannabis"
   },
   {
     "study_id": "Phung2019-alc",
@@ -9437,7 +9672,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Pickover2016-opi",
@@ -9477,7 +9713,8 @@
     "mean_breakpoint": "1.25 (median)",
     "mean_pmax": "0.50 (median)",
     "mean_r2": "0.85 (median)",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Opioids"
   },
   {
     "study_id": "Pickover2016-sed",
@@ -9517,7 +9754,8 @@
     "mean_breakpoint": "2.50 (median)",
     "mean_pmax": "1.00 (median)",
     "mean_r2": "0.83 (median)",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Other substances"
   },
   {
     "study_id": "Pickover2016-sti",
@@ -9557,7 +9795,8 @@
     "mean_breakpoint": "4.00 (median)",
     "mean_pmax": "2.50 (median)",
     "mean_r2": "0.81 (median)",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Other substances"
   },
   {
     "study_id": "Pope2010",
@@ -9597,7 +9836,8 @@
     "mean_breakpoint": "72 (median)",
     "mean_pmax": "4.25 (median)",
     "mean_r2": "NR",
-    "notes": "Paper has two samples (dependent N=19; nondependent N=15), same commodity, not a multi-commodity case. Sample size, mean age, Breakpoint, and Pmax averaged across both samples. Mean Alpha/Mean Q0 not calculated (elasticity not modeled, small N)"
+    "notes": "Paper has two samples (dependent N=19; nondependent N=15), same commodity, not a multi-commodity case. Sample size, mean age, Breakpoint, and Pmax averaged across both samples. Mean Alpha/Mean Q0 not calculated (elasticity not modeled, small N)",
+    "commodity_category": "Other substances"
   },
   {
     "study_id": "Quisenberry2023",
@@ -9637,7 +9877,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "This is a qualitative study. The 9-price cigarillo purchase task was administered, but analysis was entirely thematic/qualitative (NVivo coding, kappa .84 intercoder reliability), not quantitative demand-curve fitting."
+    "notes": "This is a qualitative study. The 9-price cigarillo purchase task was administered, but analysis was entirely thematic/qualitative (NVivo coding, kappa .84 intercoder reliability), not quantitative demand-curve fitting.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Ramirez2016-alc",
@@ -9677,7 +9918,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": 0.82,
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Ramirez2020-alc",
@@ -9717,7 +9959,8 @@
     "mean_breakpoint": 11.1,
     "mean_pmax": 5.82,
     "mean_r2": "NR",
-    "notes": "For the behavioral indices values, I reported the mean values given in the text (Results section).\nHowever, elasticity was not included there. \nParticipant subgroup demand indices means were provided in Table 1, so I averaged the elasticity values here and reported it."
+    "notes": "For the behavioral indices values, I reported the mean values given in the text (Results section).\nHowever, elasticity was not included there. \nParticipant subgroup demand indices means were provided in Table 1, so I averaged the elasticity values here and reported it.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Reed2014-fuel",
@@ -9757,7 +10000,8 @@
     "mean_breakpoint": "7.33 (median)",
     "mean_pmax": "1.79 (median)",
     "mean_r2": "0.873 (median)",
-    "notes": "Mean Alpha, Mean Breakpoint, Mean Pmax, and Mean R2 in the indices row are derived figures, calculated as a simple average across the study's 3 progression-size groups ($0.25/$0.50/$1.00)"
+    "notes": "Mean Alpha, Mean Breakpoint, Mean Pmax, and Mean R2 in the indices row are derived figures, calculated as a simple average across the study's 3 progression-size groups ($0.25/$0.50/$1.00)",
+    "commodity_category": "Leisure & Entertainment"
   },
   {
     "study_id": "Reed2016-tan",
@@ -9797,7 +10041,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "14.33 (median)",
     "mean_r2": "0.98 (aggregate)",
-    "notes": "α is defined as a model parameter and used to compute EV/Pmax, not a standalone index. Pmax value is a rough triangulation from the Discussion's visual description of Figure 2, not a stated descriptive statistic"
+    "notes": "α is defined as a model parameter and used to compute EV/Pmax, not a standalone index. Pmax value is a rough triangulation from the Discussion's visual description of Figure 2, not a stated descriptive statistic",
+    "commodity_category": "Behavioral (non-substance)"
   },
   {
     "study_id": "Reed2023-lot",
@@ -9837,7 +10082,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "Averaged the reported demand indice values across two timepoints."
+    "notes": "Averaged the reported demand indice values across two timepoints.",
+    "commodity_category": "Household & Personal Care"
   },
   {
     "study_id": "Reed2023-san",
@@ -9877,7 +10123,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "Averaged the reported demand indice values across two timepoints."
+    "notes": "Averaged the reported demand indice values across two timepoints.",
+    "commodity_category": "Household & Personal Care"
   },
   {
     "study_id": "Reed2023-papto",
@@ -9917,7 +10164,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "Averaged the reported demand indice values across two timepoints."
+    "notes": "Averaged the reported demand indice values across two timepoints.",
+    "commodity_category": "Household & Personal Care"
   },
   {
     "study_id": "Reed2023-tp",
@@ -9957,7 +10205,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "Averaged the reported demand indice values across two timepoints."
+    "notes": "Averaged the reported demand indice values across two timepoints.",
+    "commodity_category": "Household & Personal Care"
   },
   {
     "study_id": "Reed2023-soda",
@@ -9997,7 +10246,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "Averaged the reported demand indice values across two timepoints."
+    "notes": "Averaged the reported demand indice values across two timepoints.",
+    "commodity_category": "Food & Nutrition"
   },
   {
     "study_id": "Reed2023-wat",
@@ -10037,7 +10287,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "Averaged the reported demand indice values across two timepoints."
+    "notes": "Averaged the reported demand indice values across two timepoints.",
+    "commodity_category": "Food & Nutrition"
   },
   {
     "study_id": "Roma2016-burgHQ",
@@ -10077,7 +10328,8 @@
     "mean_breakpoint": "37 (± 7)",
     "mean_pmax": 10.0,
     "mean_r2": 0.99,
-    "notes": "Mean Age (36 ± 13 yr) is a whole-sample figure, not specific to this experimental condition. The Study had 33 HPT variants in total (6 commodities × up to 3 price densities × up to 2 purchase types); this row reflects only the High density condition, Probability purchase type"
+    "notes": "Mean Age (36 ± 13 yr) is a whole-sample figure, not specific to this experimental condition. The Study had 33 HPT variants in total (6 commodities × up to 3 price densities × up to 2 purchase types); this row reflects only the High density condition, Probability purchase type",
+    "commodity_category": "Food & Nutrition"
   },
   {
     "study_id": "Roma2016-tp",
@@ -10117,7 +10369,8 @@
     "mean_breakpoint": "20 (± 2)",
     "mean_pmax": 8.0,
     "mean_r2": 1.0,
-    "notes": "Mean Age (36 ± 13 yr) is a whole-sample figure, not specific to this experimental condition. The Study had 33 HPT variants in total (6 commodities × up to 3 price densities × up to 2 purchase types); this row reflects only the High density condition, Probability purchase type"
+    "notes": "Mean Age (36 ± 13 yr) is a whole-sample figure, not specific to this experimental condition. The Study had 33 HPT variants in total (6 commodities × up to 3 price densities × up to 2 purchase types); this row reflects only the High density condition, Probability purchase type",
+    "commodity_category": "Household & Personal Care"
   },
   {
     "study_id": "Roma2016-ppv",
@@ -10157,7 +10410,8 @@
     "mean_breakpoint": "30 (± 6)",
     "mean_pmax": 15.0,
     "mean_r2": 0.98,
-    "notes": "Mean Age (36 ± 13 yr) is a whole-sample figure, not specific to this experimental condition. The Study had 33 HPT variants in total (6 commodities × up to 3 price densities × up to 2 purchase types); this row reflects only the High density condition, Probability purchase type"
+    "notes": "Mean Age (36 ± 13 yr) is a whole-sample figure, not specific to this experimental condition. The Study had 33 HPT variants in total (6 commodities × up to 3 price densities × up to 2 purchase types); this row reflects only the High density condition, Probability purchase type",
+    "commodity_category": "Leisure & Entertainment"
   },
   {
     "study_id": "Roma2016-dine",
@@ -10197,7 +10451,8 @@
     "mean_breakpoint": "317 (+ 67)",
     "mean_pmax": 78.0,
     "mean_r2": 1.0,
-    "notes": "Mean Age (36 ± 13 yr) is a whole-sample figure, not specific to this experimental condition. The Study had 33 HPT variants in total (6 commodities × up to 3 price densities × up to 2 purchase types); this row reflects only the High density condition, Probability purchase type"
+    "notes": "Mean Age (36 ± 13 yr) is a whole-sample figure, not specific to this experimental condition. The Study had 33 HPT variants in total (6 commodities × up to 3 price densities × up to 2 purchase types); this row reflects only the High density condition, Probability purchase type",
+    "commodity_category": "Food & Nutrition"
   },
   {
     "study_id": "Roma2016-frdg",
@@ -10237,7 +10492,8 @@
     "mean_breakpoint": "4,098 (+ 724)",
     "mean_pmax": 1338.0,
     "mean_r2": 0.99,
-    "notes": "Mean Age (36 ± 13 yr) is a whole-sample figure, not specific to this experimental condition. The Study had 33 HPT variants in total (6 commodities × up to 3 price densities × up to 2 purchase types); this row reflects only the High density condition, Probability purchase type"
+    "notes": "Mean Age (36 ± 13 yr) is a whole-sample figure, not specific to this experimental condition. The Study had 33 HPT variants in total (6 commodities × up to 3 price densities × up to 2 purchase types); this row reflects only the High density condition, Probability purchase type",
+    "commodity_category": "Household & Personal Care"
   },
   {
     "study_id": "Roma2016-vac",
@@ -10277,7 +10533,8 @@
     "mean_breakpoint": "8,421 (+ 1,478)",
     "mean_pmax": 3250.0,
     "mean_r2": 0.99,
-    "notes": "Mean Age (36 ± 13 yr) is a whole-sample figure, not specific to this experimental condition. The Study had 33 HPT variants in total (6 commodities × up to 3 price densities × up to 2 purchase types); this row reflects only the High density condition, Probability purchase type"
+    "notes": "Mean Age (36 ± 13 yr) is a whole-sample figure, not specific to this experimental condition. The Study had 33 HPT variants in total (6 commodities × up to 3 price densities × up to 2 purchase types); this row reflects only the High density condition, Probability purchase type",
+    "commodity_category": "Leisure & Entertainment"
   },
   {
     "study_id": "Rose2018-alc",
@@ -10317,7 +10574,8 @@
     "mean_breakpoint": 1.47,
     "mean_pmax": 1.11,
     "mean_r2": "NR",
-    "notes": "Averaged the reported demand indice means across 2 groups and 2 sessions after backtransforming them. The paper reported that data was log transformed to reduce positive skew. \n\nWithout backtransforming, the averaged indices would be:\nMean Alpha = -1.8375\nMean Q0 = 0.4\nMean Breakpoint = 0.34\nMean Pmax = 0.07"
+    "notes": "Averaged the reported demand indice means across 2 groups and 2 sessions after backtransforming them. The paper reported that data was log transformed to reduce positive skew. \n\nWithout backtransforming, the averaged indices would be:\nMean Alpha = -1.8375\nMean Q0 = 0.4\nMean Breakpoint = 0.34\nMean Pmax = 0.07",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Rush2025-met",
@@ -10357,7 +10615,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "The study focused on the effects of methamphetamine use on hypothetical drug demand. It used a HPT, but details on the demand model and curve fitting were not provided."
+    "notes": "The study focused on the effects of methamphetamine use on hypothetical drug demand. It used a HPT, but details on the demand model and curve fitting were not provided.",
+    "commodity_category": "Other substances"
   },
   {
     "study_id": "Rzeszutek2022-cig",
@@ -10397,7 +10656,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Rzeszutek2022-opid",
@@ -10437,7 +10697,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Opioids"
   },
   {
     "study_id": "Rzeszutek2023-cig",
@@ -10477,7 +10738,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "The study uses multiple demand models, also including the Rachlin demand model and combined/multidimensional models."
+    "notes": "The study uses multiple demand models, also including the Rachlin demand model and combined/multidimensional models.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Salzer2019-alc",
@@ -10517,7 +10779,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "4.38 (aggregate)",
     "mean_r2": "0.99 (aggregate)",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Salzer2021-alc",
@@ -10557,7 +10820,8 @@
     "mean_breakpoint": 11.47,
     "mean_pmax": 7.28,
     "mean_r2": 0.88,
-    "notes": "The paper stated 17 prices in the methods section but from the results and table 1, there were actually 16 price points."
+    "notes": "The paper stated 17 prices in the methods section but from the results and table 1, there were actually 16 price points.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Schlienz2014-cig",
@@ -10597,7 +10861,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "The paper reported that R² values ranged from .89 to .99."
+    "notes": "The paper reported that R² values ranged from .89 to .99.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Schultz2023-can",
@@ -10637,7 +10902,8 @@
     "mean_breakpoint": 16.34,
     "mean_pmax": 8.83,
     "mean_r2": "NR",
-    "notes": "The observed Q0 was 27.15."
+    "notes": "The observed Q0 was 27.15.",
+    "commodity_category": "Cannabis"
   },
   {
     "study_id": "Schwartz2019-alc",
@@ -10677,7 +10943,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "0.99 (Aggregate)",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Schwartz2019-cig",
@@ -10717,7 +10984,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "0.98 (Aggregate)",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Schwartz2019-opad",
@@ -10757,7 +11025,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "0.96 (Aggregate)",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Opioids"
   },
   {
     "study_id": "Schwartz2019-opstd",
@@ -10797,7 +11066,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "0.94 (Aggregate)",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Opioids"
   },
   {
     "study_id": "Schwartz2021-benzo",
@@ -10837,7 +11107,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": 0.94,
-    "notes": "Same paper/sample as Schwartz2021-her - see row 30AL for full notes on commodity split, Aggregate labeling, sample size derivation, and age selection (all apply identically here)"
+    "notes": "Same paper/sample as Schwartz2021-her - see row 30AL for full notes on commodity split, Aggregate labeling, sample size derivation, and age selection (all apply identically here)",
+    "commodity_category": "Other substances"
   },
   {
     "study_id": "Schwartz2021-cig",
@@ -10877,7 +11148,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": 1.97,
     "mean_r2": 0.94,
-    "notes": "Mean Age & Section H indices are n-weighted avg of RU(20)/LTA(18), because no overall value was reported.\n\nStudy Design/Participant Assignment coded Cross-sectional/Between-subjects, but RU/LTA are pre-existing clinical subgroups rather than randomly assigned conditions. See Method, p.3. Unsure if this applies"
+    "notes": "Mean Age & Section H indices are n-weighted avg of RU(20)/LTA(18), because no overall value was reported.\n\nStudy Design/Participant Assignment coded Cross-sectional/Between-subjects, but RU/LTA are pre-existing clinical subgroups rather than randomly assigned conditions. See Method, p.3. Unsure if this applies",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Schwartz2021-met",
@@ -10917,7 +11189,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": 13.99,
     "mean_r2": 0.98,
-    "notes": "Mean Age & Section H indices are n-weighted avg of RU(20)/LTA(18), because no overall value was reported.\n\nStudy Design/Participant Assignment coded Cross-sectional/Between-subjects, but RU/LTA are pre-existing clinical subgroups rather than randomly assigned conditions. See Method, p.3. Unsure if this applies"
+    "notes": "Mean Age & Section H indices are n-weighted avg of RU(20)/LTA(18), because no overall value was reported.\n\nStudy Design/Participant Assignment coded Cross-sectional/Between-subjects, but RU/LTA are pre-existing clinical subgroups rather than randomly assigned conditions. See Method, p.3. Unsure if this applies",
+    "commodity_category": "Opioids"
   },
   {
     "study_id": "Schwartz2021-tp",
@@ -10957,7 +11230,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": 7.61,
     "mean_r2": 0.97,
-    "notes": "Mean Age & Section H indices are n-weighted avg of RU(20)/LTA(18), because no overall value was reported.\n\nStudy Design/Participant Assignment coded Cross-sectional/Between-subjects, but RU/LTA are pre-existing clinical subgroups rather than randomly assigned conditions. See Method, p.3. Unsure if this applies"
+    "notes": "Mean Age & Section H indices are n-weighted avg of RU(20)/LTA(18), because no overall value was reported.\n\nStudy Design/Participant Assignment coded Cross-sectional/Between-subjects, but RU/LTA are pre-existing clinical subgroups rather than randomly assigned conditions. See Method, p.3. Unsure if this applies",
+    "commodity_category": "Household & Personal Care"
   },
   {
     "study_id": "Schwartz2021a-coc",
@@ -10997,7 +11271,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": 0.9,
-    "notes": "Same paper/sample as Schwartz2021-her - see row 30AL for full notes on commodity split, Aggregate labeling, sample size derivation, and age selection (all apply identically here)"
+    "notes": "Same paper/sample as Schwartz2021-her - see row 30AL for full notes on commodity split, Aggregate labeling, sample size derivation, and age selection (all apply identically here)",
+    "commodity_category": "Other substances"
   },
   {
     "study_id": "Schwartz2021a-her",
@@ -11037,7 +11312,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": 0.89,
-    "notes": "Study tested three commodities (heroin, cocaine, benzodiazepines), entered as three separate rows. Q0, alpha, and EV entered are Aggregate only, since no individual-level average was reported for these three (only group-curve values, pg. 4); Mean R² instead uses the individual-level average (0.89/0.90/0.94) since that was explicitly reported (pg. 5).\n\nSample Size: N was not explicitly reported per drug/index in the paper. Derived personally from Table 2's F-test degrees of freedom (N = df2 + 2). (See pg. 5, Table 2)\nMean Age: Study reports age at both baseline (48.2) and follow-up (50.0) due to longitudinal design. Used baseline (T1) value for consistency with T1 demand indices reported in Section H. (See pg. 3, Table 1)"
+    "notes": "Study tested three commodities (heroin, cocaine, benzodiazepines), entered as three separate rows. Q0, alpha, and EV entered are Aggregate only, since no individual-level average was reported for these three (only group-curve values, pg. 4); Mean R² instead uses the individual-level average (0.89/0.90/0.94) since that was explicitly reported (pg. 5).\n\nSample Size: N was not explicitly reported per drug/index in the paper. Derived personally from Table 2's F-test degrees of freedom (N = df2 + 2). (See pg. 5, Table 2)\nMean Age: Study reports age at both baseline (48.2) and follow-up (50.0) due to longitudinal design. Used baseline (T1) value for consistency with T1 demand indices reported in Section H. (See pg. 3, Table 1)",
+    "commodity_category": "Opioids"
   },
   {
     "study_id": "Schwartz2021b-coc",
@@ -11077,7 +11353,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": 14.16,
     "mean_r2": 0.945,
-    "notes": "Mean Age & Section H indices are n-weighted avg of RU(20)/LTA(18), because no overall value was reported.\n\nStudy Design/Participant Assignment coded Cross-sectional/Between-subjects, but RU/LTA are pre-existing clinical subgroups rather than randomly assigned conditions. See Method, p.3. Unsure if this applies"
+    "notes": "Mean Age & Section H indices are n-weighted avg of RU(20)/LTA(18), because no overall value was reported.\n\nStudy Design/Participant Assignment coded Cross-sectional/Between-subjects, but RU/LTA are pre-existing clinical subgroups rather than randomly assigned conditions. See Method, p.3. Unsure if this applies",
+    "commodity_category": "Other substances"
   },
   {
     "study_id": "Schwartz2021b-her",
@@ -11117,7 +11394,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": 11.65,
     "mean_r2": 0.965,
-    "notes": "Mean Age & Section H indices are n-weighted avg of RU(20)/LTA(18), because no overall value was reported.\n\nStudy Design/Participant Assignment coded Cross-sectional/Between-subjects, but RU/LTA are pre-existing clinical subgroups rather than randomly assigned conditions. See Method, p.3. Unsure if this applies"
+    "notes": "Mean Age & Section H indices are n-weighted avg of RU(20)/LTA(18), because no overall value was reported.\n\nStudy Design/Participant Assignment coded Cross-sectional/Between-subjects, but RU/LTA are pre-existing clinical subgroups rather than randomly assigned conditions. See Method, p.3. Unsure if this applies",
+    "commodity_category": "Opioids"
   },
   {
     "study_id": "Schwartz2023-coc",
@@ -11157,7 +11435,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "The available manuscript does not include the figures or tables, so the values of mean age and the mean demand indices are not available.\n\nThe study had 2 samples. The same HPTs had 9 price points in one sample and 17 prices in the second sample."
+    "notes": "The available manuscript does not include the figures or tables, so the values of mean age and the mean demand indices are not available.\n\nThe study had 2 samples. The same HPTs had 9 price points in one sample and 17 prices in the second sample.",
+    "commodity_category": "Other substances"
   },
   {
     "study_id": "Schwartz2023-her",
@@ -11197,7 +11476,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "The available manuscript does not include the figures or tables, so the values of mean age and the mean demand indices are not available.\n\nThe study had 2 samples. The same HPTs had 9 price points in one sample and 17 prices in the second sample."
+    "notes": "The available manuscript does not include the figures or tables, so the values of mean age and the mean demand indices are not available.\n\nThe study had 2 samples. The same HPTs had 9 price points in one sample and 17 prices in the second sample.",
+    "commodity_category": "Opioids"
   },
   {
     "study_id": "Secades-Villa2016-cig",
@@ -11237,7 +11517,8 @@
     "mean_breakpoint": 14.0,
     "mean_pmax": 3.8,
     "mean_r2": 0.83,
-    "notes": "Averaged the reported demand index values across 3 conditions."
+    "notes": "Averaged the reported demand index values across 3 conditions.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Secades-Villa2018-cig",
@@ -11277,7 +11558,8 @@
     "mean_breakpoint": 16.275,
     "mean_pmax": 10.135,
     "mean_r2": 0.82,
-    "notes": "Averaged the reported demand index values across 2 groups."
+    "notes": "Averaged the reported demand index values across 2 groups.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Sholler2021-indi",
@@ -11317,7 +11599,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "The reported intensity value was square-root transformed and the elasticity value was natural-log transformed. \n\nNo demand model was specified in this paper."
+    "notes": "The reported intensity value was square-root transformed and the elasticity value was natural-log transformed. \n\nNo demand model was specified in this paper.",
+    "commodity_category": "Cannabis"
   },
   {
     "study_id": "Sholler2021-sati",
@@ -11357,7 +11640,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "The reported intensity value was square-root transformed and the elasticity value was natural-log transformed. \n\nNo demand model was specified in this paper."
+    "notes": "The reported intensity value was square-root transformed and the elasticity value was natural-log transformed. \n\nNo demand model was specified in this paper.",
+    "commodity_category": "Cannabis"
   },
   {
     "study_id": "Simuzingili2022-cgar",
@@ -11397,7 +11681,8 @@
     "mean_breakpoint": 4.62,
     "mean_pmax": 5.25,
     "mean_r2": "NR",
-    "notes": "No demand-curve model (e.g., Hursh & Silberberg / Koffarnus) is explicitly named; indices appear derived directly from raw/observed CPT responses rather than a fitted model, which is also why R2 is not reported."
+    "notes": "No demand-curve model (e.g., Hursh & Silberberg / Koffarnus) is explicitly named; indices appear derived directly from raw/observed CPT responses rather than a fitted model, which is also why R2 is not reported.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Skidmore2011-alc",
@@ -11437,7 +11722,8 @@
     "mean_breakpoint": 7.43,
     "mean_pmax": 3.72,
     "mean_r2": 0.55,
-    "notes": "The study used a within-subject design comparing three APT conditions that differed in next-day responsibilities. However, the paper dID not state that participants were randomly assigned to conditions. \n\nI coded it as experimental, but this requires review."
+    "notes": "The study used a within-subject design comparing three APT conditions that differed in next-day responsibilities. However, the paper dID not state that participants were randomly assigned to conditions. \n\nI coded it as experimental, but this requires review.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Skidmore2014-alc",
@@ -11477,7 +11763,8 @@
     "mean_breakpoint": 9.29,
     "mean_pmax": 3.989,
     "mean_r2": 0.89,
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Skrzynski2023-can",
@@ -11517,7 +11804,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Cannabis"
   },
   {
     "study_id": "Smith2010-alc",
@@ -11557,7 +11845,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Smith2017-cig",
@@ -11597,7 +11886,8 @@
     "mean_breakpoint": "0.89 (median)",
     "mean_pmax": "0.43 (median)",
     "mean_r2": 0.855,
-    "notes": "The study included 2 HPTs, one for study-cigarette and another for usual-brand-cigarette. For each HPT, there was data collected at baseline, Week 6 and data collected after 24 hours of abstinence. \n\nI averaged the reported indices across the 2 HPTs X 3 time points X 7 groups, since both measured cigarette demand.\n\nFor R², only Week 6 and 24-hour abstinence values were reported which I averaged. \n\nThen i added the sample size of both. \nThere were 4 different k values, but they were empirical."
+    "notes": "The study included 2 HPTs, one for study-cigarette and another for usual-brand-cigarette. For each HPT, there was data collected at baseline, Week 6 and data collected after 24 hours of abstinence. \n\nI averaged the reported indices across the 2 HPTs X 3 time points X 7 groups, since both measured cigarette demand.\n\nFor R², only Week 6 and 24-hour abstinence values were reported which I averaged. \n\nThen i added the sample size of both. \nThere were 4 different k values, but they were empirical.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Smith2020-cig",
@@ -11637,7 +11927,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Smith2025a-cig",
@@ -11677,7 +11968,8 @@
     "mean_breakpoint": "0.31 (median)",
     "mean_pmax": "0.2 (median)",
     "mean_r2": "NR",
-    "notes": "Alpha, Q0, Breakpoint, and Pmax are n-weighted averages of VLNC and NNC subgroup medians."
+    "notes": "Alpha, Q0, Breakpoint, and Pmax are n-weighted averages of VLNC and NNC subgroup medians.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Smith2025b-cig",
@@ -11717,7 +12009,8 @@
     "mean_breakpoint": "0.8 (median)",
     "mean_pmax": "0.5 (median)",
     "mean_r2": "NR",
-    "notes": "Alpha, Q0, Breakpoint, and Pmax are n-weighted averages of VLNC and NNC subgroup medians."
+    "notes": "Alpha, Q0, Breakpoint, and Pmax are n-weighted averages of VLNC and NNC subgroup medians.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Snell2023-cig",
@@ -11757,7 +12050,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Snider2016-alc",
@@ -11797,7 +12091,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "0.975 (aggregate)",
-    "notes": "Averaged the reported demand indices across 2 groups."
+    "notes": "Averaged the reported demand indices across 2 groups.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Snider2017-cig",
@@ -11837,7 +12132,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": 0.842,
-    "notes": "The 385 sample size does not exclude participants who were dropped due to nonsytematic data. The paper does not explicitly state the final N for HPT analysis. \n\nAveraged the reported demand indices values across 5 groups."
+    "notes": "The 385 sample size does not exclude participants who were dropped due to nonsytematic data. The paper does not explicitly state the final N for HPT analysis. \n\nAveraged the reported demand indices values across 5 groups.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Snider2017-ecig",
@@ -11877,7 +12173,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "The 385 sample size does not exclude participants who were dropped due to nonsytematic data. The paper does not explicitly state the final N for HPT analysis. \n\nAveraged the reported demand indices values across 5 groups."
+    "notes": "The 385 sample size does not exclude participants who were dropped due to nonsytematic data. The paper does not explicitly state the final N for HPT analysis. \n\nAveraged the reported demand indices values across 5 groups.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Spelman2018-alc",
@@ -11917,7 +12214,8 @@
     "mean_breakpoint": 6.38,
     "mean_pmax": 3.73,
     "mean_r2": "NR",
-    "notes": "The study reported overall means for the demand indices (Table 1), except for alpha, for which it only reported condition-specific means (Table 4). These were averaged. \nIt also mentioned that alpha values were multiplied by 100 for scaling."
+    "notes": "The study reported overall means for the demand indices (Table 1), except for alpha, for which it only reported condition-specific means (Table 4). These were averaged. \nIt also mentioned that alpha values were multiplied by 100 for scaling.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Stancato2020-alc",
@@ -11957,7 +12255,8 @@
     "mean_breakpoint": "10 (median)",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "The study reported observed Q0 and breakpoint values."
+    "notes": "The study reported observed Q0 and breakpoint values.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Stein2015-cig",
@@ -11997,7 +12296,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "This is a methodological/algorithm-validation paper, not a standard demand-index study. It re-analyzes four distinct pre-existing hypothetical cigarette purchase tasks (2 lab-based ascending-price, 2 MTurk-based) to test a data-quality algorithm (Trend/Bounce/Reversal criteria). No demand curve models, alpha, Q0, breakpoint, Pmax, Omax, or R2 values are reported anywhere in the paper,  its primary outcomes are the percentage of \"nonsystematic\" (poor-quality) demand functions detected per task and logistic regression associations between demographics (race, education) and data quality"
+    "notes": "This is a methodological/algorithm-validation paper, not a standard demand-index study. It re-analyzes four distinct pre-existing hypothetical cigarette purchase tasks (2 lab-based ascending-price, 2 MTurk-based) to test a data-quality algorithm (Trend/Bounce/Reversal criteria). No demand curve models, alpha, Q0, breakpoint, Pmax, Omax, or R2 values are reported anywhere in the paper,  its primary outcomes are the percentage of \"nonsystematic\" (poor-quality) demand functions detected per task and logistic regression associations between demographics (race, education) and data quality",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Stein2018-cig",
@@ -12037,7 +12337,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Stennett2021-alc",
@@ -12077,7 +12378,8 @@
     "mean_breakpoint": 14.93,
     "mean_pmax": 6.31,
     "mean_r2": "NR",
-    "notes": "Averaged the reported demand indices across 4 subgroups X 2 timepoints."
+    "notes": "Averaged the reported demand indices across 4 subgroups X 2 timepoints.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Stinson2021-net",
@@ -12117,7 +12419,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": 0.97,
-    "notes": "Mean Alpha not reported as raw value, only log-transformed α used in correlations (Table 1) due to positive skew. p.5."
+    "notes": "Mean Alpha not reported as raw value, only log-transformed α used in correlations (Table 1) due to positive skew. p.5.",
+    "commodity_category": "Leisure & Entertainment"
   },
   {
     "study_id": "Stoops2016-coc",
@@ -12157,7 +12460,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "0.87 (median)",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Other substances"
   },
   {
     "study_id": "Stoops2019-coc",
@@ -12197,7 +12501,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "0.97 (median)",
-    "notes": "Averaged the reported R² values across 2 conditions."
+    "notes": "Averaged the reported R² values across 2 conditions.",
+    "commodity_category": "Other substances"
   },
   {
     "study_id": "Streck2018-cig",
@@ -12237,7 +12542,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Strickland2016-alc",
@@ -12277,7 +12583,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": 0.81,
-    "notes": "The paper's term \"essential value\" refers to α itself (elasticity), not a separate Q0+α composite"
+    "notes": "The paper's term \"essential value\" refers to α itself (elasticity), not a separate Q0+α composite",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Strickland2016-cig",
@@ -12317,7 +12624,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": 0.94,
-    "notes": "Table 2 labels this commodity \"Nicotine\" rather than \"Cigarette,\" but it corresponds to the Cigarette Purchase Task described throughout the Method section\n\nThe paper's term \"essential value\" refers to α itself (elasticity), not a separate Q0+α composite"
+    "notes": "Table 2 labels this commodity \"Nicotine\" rather than \"Cigarette,\" but it corresponds to the Cigarette Purchase Task described throughout the Method section\n\nThe paper's term \"essential value\" refers to α itself (elasticity), not a separate Q0+α composite",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Strickland2016-coc",
@@ -12357,7 +12665,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": 0.91,
-    "notes": "The paper's term \"essential value\" refers to α itself (elasticity), not a separate Q0+α composite"
+    "notes": "The paper's term \"essential value\" refers to α itself (elasticity), not a separate Q0+α composite",
+    "commodity_category": "Other substances"
   },
   {
     "study_id": "Strickland2017a-alc",
@@ -12397,7 +12706,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "0.93 (median)",
-    "notes": "Q0, α, are reported as correlations in Table 2. No mean/raw values of these parameters themselves."
+    "notes": "Q0, α, are reported as correlations in Table 2. No mean/raw values of these parameters themselves.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Strickland2017a-choc",
@@ -12437,7 +12747,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "0.97 (median)",
-    "notes": "Q0, α, are reported as correlations in Table 4. No mean/raw values of these parameters themselves."
+    "notes": "Q0, α, are reported as correlations in Table 4. No mean/raw values of these parameters themselves.",
+    "commodity_category": "Food & Nutrition"
   },
   {
     "study_id": "Strickland2017a-cig",
@@ -12477,7 +12788,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "0.96 (median)",
-    "notes": "Q0, α, are reported as correlations in Table 4. No mean/raw values of these parameters themselves."
+    "notes": "Q0, α, are reported as correlations in Table 4. No mean/raw values of these parameters themselves.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Strickland2017a-soda",
@@ -12517,7 +12829,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "0.93 (median)",
-    "notes": "Q0, α, are reported as correlations in Table 2. No mean/raw values of these parameters themselves."
+    "notes": "Q0, α, are reported as correlations in Table 2. No mean/raw values of these parameters themselves.",
+    "commodity_category": "Food & Nutrition"
   },
   {
     "study_id": "Strickland2017b-alc",
@@ -12557,7 +12870,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": 0.87,
-    "notes": "Mean Age and Mean Q0/Alpha (alcohol) are calculated n-weighted averages across the cannabis-user and control subgroups, since the paper does not report a combined-sample statistic directly."
+    "notes": "Mean Age and Mean Q0/Alpha (alcohol) are calculated n-weighted averages across the cannabis-user and control subgroups, since the paper does not report a combined-sample statistic directly.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Strickland2017b-can",
@@ -12597,7 +12911,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": 0.95,
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Cannabis"
   },
   {
     "study_id": "Strickland2019-can",
@@ -12637,7 +12952,8 @@
     "mean_breakpoint": 0.6,
     "mean_pmax": 0.19,
     "mean_r2": "0.93 (median)",
-    "notes": "Reported Alpha and Q0, Breakpoint and Pmax values are log-transformed, not raw decimals. Alpha reported are back-transformed from log-values."
+    "notes": "Reported Alpha and Q0, Breakpoint and Pmax values are log-transformed, not raw decimals. Alpha reported are back-transformed from log-values.",
+    "commodity_category": "Cannabis"
   },
   {
     "study_id": "Strickland2019-opi",
@@ -12677,7 +12993,8 @@
     "mean_breakpoint": 0.9,
     "mean_pmax": 0.62,
     "mean_r2": "0.86 (median)",
-    "notes": "Reported Alpha and Q0, Breakpoint and Pmax values are log-transformed, not raw decimals. Alpha reported are back-transformed from log-values."
+    "notes": "Reported Alpha and Q0, Breakpoint and Pmax values are log-transformed, not raw decimals. Alpha reported are back-transformed from log-values.",
+    "commodity_category": "Opioids"
   },
   {
     "study_id": "Strickland2019a-alc",
@@ -12717,7 +13034,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "Both Q0 and Alpha were reported in log-transformed form in Table 1.  Alpha alone was back-transformed to raw decimal form here, because its log-transformed value was negative."
+    "notes": "Both Q0 and Alpha were reported in log-transformed form in Table 1.  Alpha alone was back-transformed to raw decimal form here, because its log-transformed value was negative.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Strickland2019a-can",
@@ -12757,7 +13075,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "Both Q0 and Alpha were reported in log-transformed form in Table 1.  Alpha alone was back-transformed to raw decimal form here, because its log-transformed value was negative."
+    "notes": "Both Q0 and Alpha were reported in log-transformed form in Table 1.  Alpha alone was back-transformed to raw decimal form here, because its log-transformed value was negative.",
+    "commodity_category": "Cannabis"
   },
   {
     "study_id": "Strickland2019a-choc",
@@ -12797,7 +13116,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "Both Q0 and Alpha were reported in log-transformed form in Table 1.  Alpha alone was back-transformed to raw decimal form here, because its log-transformed value was negative."
+    "notes": "Both Q0 and Alpha were reported in log-transformed form in Table 1.  Alpha alone was back-transformed to raw decimal form here, because its log-transformed value was negative.",
+    "commodity_category": "Food & Nutrition"
   },
   {
     "study_id": "Strickland2019b-alc",
@@ -12837,7 +13157,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": 0.87,
-    "notes": "Reported Alpha and Q0 values are log-transformed, not raw decimals. Alpha reported are back-transformed from log-values."
+    "notes": "Reported Alpha and Q0 values are log-transformed, not raw decimals. Alpha reported are back-transformed from log-values.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Strickland2019b-soda",
@@ -12877,7 +13198,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": 0.91,
-    "notes": "Reported Alpha and Q0 values are log-transformed, not raw decimals. Alpha reported are back-transformed from log-values."
+    "notes": "Reported Alpha and Q0 values are log-transformed, not raw decimals. Alpha reported are back-transformed from log-values.",
+    "commodity_category": "Food & Nutrition"
   },
   {
     "study_id": "Strickland2020-con",
@@ -12917,7 +13239,8 @@
     "mean_breakpoint": 9.84,
     "mean_pmax": 6.23,
     "mean_r2": "0.94 (median)",
-    "notes": "Three conditions reported (10%, 50%, 90% STI risk). Used 90% risk for Q0, breakpoint, Pmax, and alpha (clearest effect of STI risk on protective demand). Used raw R² (0.94) over normalized (0.88), consistent with raw values used above. (See pg. 5, Results & Table 2)"
+    "notes": "Three conditions reported (10%, 50%, 90% STI risk). Used 90% risk for Q0, breakpoint, Pmax, and alpha (clearest effect of STI risk on protective demand). Used raw R² (0.94) over normalized (0.88), consistent with raw values used above. (See pg. 5, Results & Table 2)",
+    "commodity_category": "Health & Prevention"
   },
   {
     "study_id": "Strickland2021-cig",
@@ -12957,7 +13280,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": 0.91,
-    "notes": "Mean Age, Mean Alpha, Mean Q0, Mean Breakpoint, Mean Pmax not reported in main text/Tables 1-2 (which report only bivariate correlations, not descriptives)"
+    "notes": "Mean Age, Mean Alpha, Mean Q0, Mean Breakpoint, Mean Pmax not reported in main text/Tables 1-2 (which report only bivariate correlations, not descriptives)",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Strickland2021-car",
@@ -12997,7 +13321,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": 0.89,
-    "notes": "Mean Age, Mean Alpha, Mean Q0, Mean Breakpoint, Mean Pmax not reported in main text/Tables 1-2 (which report only bivariate correlations, not descriptives)"
+    "notes": "Mean Age, Mean Alpha, Mean Q0, Mean Breakpoint, Mean Pmax not reported in main text/Tables 1-2 (which report only bivariate correlations, not descriptives)",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Strickland2021-ml",
@@ -13037,7 +13362,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": 0.92,
-    "notes": "Mean Age, Mean Alpha, Mean Q0, Mean Breakpoint, Mean Pmax not reported in main text/Tables 1-2 (which report only bivariate correlations, not descriptives)"
+    "notes": "Mean Age, Mean Alpha, Mean Q0, Mean Breakpoint, Mean Pmax not reported in main text/Tables 1-2 (which report only bivariate correlations, not descriptives)",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Strickland2022-alc",
@@ -13077,7 +13403,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "The paper reports demand metrics only as distributions (dot plots) and effect sizes (Cohen's d differences between naïve/non-naïve groups). No explicit numeric mean or median values for Alpha, Q0, Breakpoint, Pmax, or R2 stated anywhere in text or table."
+    "notes": "The paper reports demand metrics only as distributions (dot plots) and effect sizes (Cohen's d differences between naïve/non-naïve groups). No explicit numeric mean or median values for Alpha, Q0, Breakpoint, Pmax, or R2 stated anywhere in text or table.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Strickland2022-cov",
@@ -13117,7 +13444,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "Task uses a non-standard demand framework (binary accept/reject across efficacy levels, not monetary price), so Sections E - H largely don't apply as designed; entered \"vaccine demand\""
+    "notes": "Task uses a non-standard demand framework (binary accept/reject across efficacy levels, not monetary price), so Sections E - H largely don't apply as designed; entered \"vaccine demand\"",
+    "commodity_category": "Health & Prevention"
   },
   {
     "study_id": "Strickland2022-sod",
@@ -13157,7 +13485,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "The paper reports demand metrics only as distributions (dot plots) and effect sizes (Cohen's d differences between naïve/non-naïve groups). No explicit numeric mean or median values for Alpha, Q0, Breakpoint, Pmax, or R2 stated anywhere in text or table."
+    "notes": "The paper reports demand metrics only as distributions (dot plots) and effect sizes (Cohen's d differences between naïve/non-naïve groups). No explicit numeric mean or median values for Alpha, Q0, Breakpoint, Pmax, or R2 stated anywhere in text or table.",
+    "commodity_category": "Food & Nutrition"
   },
   {
     "study_id": "Strickland2023-alc",
@@ -13197,7 +13526,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "Study used curve-observed indices (not equation-fit alpha/Q0/EV), so Demand Model, k value, Alpha, and R2 fields are NR/No by design, not because reporting was incomplete."
+    "notes": "Study used curve-observed indices (not equation-fit alpha/Q0/EV), so Demand Model, k value, Alpha, and R2 fields are NR/No by design, not because reporting was incomplete.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Strickland2023-choc",
@@ -13237,7 +13567,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "Study used curve-observed indices (not equation-fit alpha/Q0/EV), so Demand Model, k value, Alpha, and R2 fields are NR/No by design, not because reporting was incomplete."
+    "notes": "Study used curve-observed indices (not equation-fit alpha/Q0/EV), so Demand Model, k value, Alpha, and R2 fields are NR/No by design, not because reporting was incomplete.",
+    "commodity_category": "Food & Nutrition"
   },
   {
     "study_id": "Strickland2023-cig",
@@ -13277,7 +13608,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "Study used curve-observed indices (not equation-fit alpha/Q0/EV), so Demand Model, k value, Alpha, and R2 fields are NR/No by design, not because reporting was incomplete."
+    "notes": "Study used curve-observed indices (not equation-fit alpha/Q0/EV), so Demand Model, k value, Alpha, and R2 fields are NR/No by design, not because reporting was incomplete.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Strickland2023-coc",
@@ -13317,7 +13649,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "Study used curve-observed indices (not equation-fit alpha/Q0/EV), so Demand Model, k value, Alpha, and R2 fields are NR/No by design, not because reporting was incomplete."
+    "notes": "Study used curve-observed indices (not equation-fit alpha/Q0/EV), so Demand Model, k value, Alpha, and R2 fields are NR/No by design, not because reporting was incomplete.",
+    "commodity_category": "Other substances"
   },
   {
     "study_id": "Strickland2024-cig",
@@ -13357,7 +13690,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "The indices are presented graphically instead of numerically."
+    "notes": "The indices are presented graphically instead of numerically.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Stricklandb2016-coc",
@@ -13397,7 +13731,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "0.90 (median)",
-    "notes": "The paper reports correlational relationships between these indices"
+    "notes": "The paper reports correlational relationships between these indices",
+    "commodity_category": "Other substances"
   },
   {
     "study_id": "Teeters2014-alc",
@@ -13437,7 +13772,8 @@
     "mean_breakpoint": 9.41,
     "mean_pmax": 3.94,
     "mean_r2": 0.87,
-    "notes": "Section H demand indices (Alpha, Q0, Breakpoint, Pmax) are not reported as a single overall-sample value, but subgroup means (Table 1), so the overall value was calculated."
+    "notes": "Section H demand indices (Alpha, Q0, Breakpoint, Pmax) are not reported as a single overall-sample value, but subgroup means (Table 1), so the overall value was calculated.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Teeters2015-alc",
@@ -13477,7 +13813,8 @@
     "mean_breakpoint": 10.06,
     "mean_pmax": "NR",
     "mean_r2": 0.87,
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Teeters2015-driving",
@@ -13517,7 +13854,8 @@
     "mean_breakpoint": 8.41,
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "This row represents the driving-scenario version of the same alcohol purchase task reported in Teeters2015 (standard APT); commodity and participants are identical, only the task framing (driving contingency) differs."
+    "notes": "This row represents the driving-scenario version of the same alcohol purchase task reported in Teeters2015 (standard APT); commodity and participants are identical, only the task framing (driving contingency) differs.",
+    "commodity_category": "Behavioral (non-substance)"
   },
   {
     "study_id": "Teeters2019-can",
@@ -13557,7 +13895,8 @@
     "mean_breakpoint": 3.31,
     "mean_pmax": 1.59,
     "mean_r2": 0.843,
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Cannabis"
   },
   {
     "study_id": "Tolbert2023-can",
@@ -13597,7 +13936,8 @@
     "mean_breakpoint": 2.74,
     "mean_pmax": 1.04,
     "mean_r2": 0.95,
-    "notes": "Results text reports group-level exponentiated model R² = .99, but Figure 2e itself prints R² = .93 for the same fit. Entered individual-level R² = 0.95 instead"
+    "notes": "Results text reports group-level exponentiated model R² = .99, but Figure 2e itself prints R² = .93 for the same fit. Entered individual-level R² = 0.95 instead",
+    "commodity_category": "Cannabis"
   },
   {
     "study_id": "Tomlinson2023-alc",
@@ -13637,7 +13977,8 @@
     "mean_breakpoint": 41.807,
     "mean_pmax": 0.747,
     "mean_r2": 0.826,
-    "notes": "Participant Assignment is a partial within-subjects design (2 of 3 conditions per participant)"
+    "notes": "Participant Assignment is a partial within-subjects design (2 of 3 conditions per participant)",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Traxler2022-alc",
@@ -13677,7 +14018,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "Task uses 0–100 probability-of-drinking scale rather than consumption quantity, so Q0/alpha are transformed probabilities, not units/dollars. Used group-level log(Q0)=1.94 and log(α)=-3.76 (converted: Q0=87.1%, α=0.0002), consistent with values reported in main text over the demographic-covariate model in Table 3, which showed no significant covariate effects. k=1.18 derived empirically via GetK function, not set a priori. Country inferred as US (Virginia Tech IRB, MTurk, USD) — not explicitly stated as eligibility criterion. (See Abstinence Incentives Task subsection, Results, and Table 2/3)"
+    "notes": "Task uses 0–100 probability-of-drinking scale rather than consumption quantity, so Q0/alpha are transformed probabilities, not units/dollars. Used group-level log(Q0)=1.94 and log(α)=-3.76 (converted: Q0=87.1%, α=0.0002), consistent with values reported in main text over the demographic-covariate model in Table 3, which showed no significant covariate effects. k=1.18 derived empirically via GetK function, not set a priori. Country inferred as US (Virginia Tech IRB, MTurk, USD) — not explicitly stated as eligibility criterion. (See Abstinence Incentives Task subsection, Results, and Table 2/3)",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Traxler2022-cm",
@@ -13717,7 +14059,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "Same probability-scale caveat as alc row applies — Q0/alpha are transformed probabilities (Q0=91.2%, α=0.0004 from log(Q0)=1.96, log(α)=-3.32), used over covariate-adjusted estimates in Table 4 since those report rate-of-change per covariate unit, not group intercepts. k=1.28 derived empirically via GetK function. Commodity Domain coded Substance use over Health financing since task is alcohol-treatment-specific. Custom commodity code \"cm\" used (not on standard list). (See Deposit Contracts Task subsection, Results, and Table 4)"
+    "notes": "Same probability-scale caveat as alc row applies — Q0/alpha are transformed probabilities (Q0=91.2%, α=0.0004 from log(Q0)=1.96, log(α)=-3.32), used over covariate-adjusted estimates in Table 4 since those report rate-of-change per covariate unit, not group intercepts. k=1.28 derived empirically via GetK function. Commodity Domain coded Substance use over Health financing since task is alcohol-treatment-specific. Custom commodity code \"cm\" used (not on standard list). (See Deposit Contracts Task subsection, Results, and Table 4)",
+    "commodity_category": "Other"
   },
   {
     "study_id": "Tripp2015-alc",
@@ -13757,7 +14100,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": 0.82,
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Tucker2016a-alc",
@@ -13797,7 +14141,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Tucker2016b-alc",
@@ -13837,7 +14182,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Tucker2017-cig",
@@ -13877,7 +14223,8 @@
     "mean_breakpoint": 1.405,
     "mean_pmax": 1.8825,
     "mean_r2": 0.66,
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Tucker2017-nic",
@@ -13917,7 +14264,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "NEC demand was assessed only via a 3-price cross-price elasticity task (regression slope of NEC demand on cigarette price), not the exponentiated demand model; so most Section G/H model-based fields are NR"
+    "notes": "NEC demand was assessed only via a 3-price cross-price elasticity task (regression slope of NEC demand on cigarette price), not the exponentiated demand model; so most Section G/H model-based fields are NR",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Tucker2021-alc",
@@ -13957,7 +14305,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "Omax/Pmax/Breakpoint reported only as correlation coefficients (Table 2), not descriptive means"
+    "notes": "Omax/Pmax/Breakpoint reported only as correlation coefficients (Table 2), not descriptive means",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Varshneya2023-alc",
@@ -13997,7 +14346,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": 60.71,
     "mean_r2": "0.9616 (median)",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Varshneya2023-can.",
@@ -14037,7 +14387,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": 54.77,
     "mean_r2": "0.9418 (median)",
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Cannabis"
   },
   {
     "study_id": "Vedelago2022-can",
@@ -14077,7 +14428,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "Alpha, Breakpoint, Pmax not entered as raw means because paper only reports them as a standardized composite (\"Persistence\"), not individually."
+    "notes": "Alpha, Breakpoint, Pmax not entered as raw means because paper only reports them as a standardized composite (\"Persistence\"), not individually.",
+    "commodity_category": "Cannabis"
   },
   {
     "study_id": "Vincent2017-ma",
@@ -14117,7 +14469,8 @@
     "mean_breakpoint": 9.93,
     "mean_pmax": 7.04,
     "mean_r2": 0.75,
-    "notes": "Since the model used was a bit different from the usual, R2 was in percentage and converted to decimal. Alpha could not be entered because the model, does not give a figure that matches the codebook preference"
+    "notes": "Since the model used was a bit different from the usual, R2 was in percentage and converted to decimal. Alpha could not be entered because the model, does not give a figure that matches the codebook preference",
+    "commodity_category": "Cannabis"
   },
   {
     "study_id": "Voss2022-alc",
@@ -14157,7 +14510,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "The APT version itself  which comprises of 20 prices, $0–$20, and a next-day exam scenario was identical across all participants, making participant assignment \"Not applicable\". However, the general study design, which was experimental, randomly assigned participants to two different conditions (A-EFT vs. VMT), and not used for jusdgement here."
+    "notes": "The APT version itself  which comprises of 20 prices, $0–$20, and a next-day exam scenario was identical across all participants, making participant assignment \"Not applicable\". However, the general study design, which was experimental, randomly assigned participants to two different conditions (A-EFT vs. VMT), and not used for jusdgement here.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Wahlstrom2012-alc",
@@ -14197,7 +14551,8 @@
     "mean_breakpoint": 6.08,
     "mean_pmax": 3.66,
     "mean_r2": 0.89,
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Weidberg2018-cig",
@@ -14237,7 +14592,8 @@
     "mean_breakpoint": 17.4,
     "mean_pmax": 7.49,
     "mean_r2": "NR",
-    "notes": "Mean age and indices are n-weighted averages of the CBT+BA (n=47) and CBT+BA+CM (n=45) subgroup means from Table 1 (baseline/intake values only, per Table 1's own framing as pre-treatment descriptives)"
+    "notes": "Mean age and indices are n-weighted averages of the CBT+BA (n=47) and CBT+BA+CM (n=45) subgroup means from Table 1 (baseline/intake values only, per Table 1's own framing as pre-treatment descriptives)",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Weidberg2019-cig",
@@ -14277,7 +14633,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": 0.97,
-    "notes": "k = 3.02, entered as the numeric value since it was explicitly given, though it was derived empirically from the data rather than pre-set."
+    "notes": "k = 3.02, entered as the numeric value since it was explicitly given, though it was derived empirically from the data rather than pre-set.",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Weinstock2016-gam",
@@ -14317,7 +14674,8 @@
     "mean_breakpoint": 7.47,
     "mean_pmax": 4.54,
     "mean_r2": "NR",
-    "notes": "(1) Demand Model reported as \"NR\" because the paper cites MacKillop et al. (2009) for the five demand metrics but never names a specific curve-fitting equation. (2) Study analyzed three subgroups (gambling disorder, alcohol use disorder, healthy control) who all completed the GPT; no overall sample mean is reported. Section H means (Alpha, Q0, Breakpoint, Pmax) are averaged across all three subgroups. The alcohol use disorder subgroup's own commodity (alcohol, via a separate task in this paper) is not represented here."
+    "notes": "(1) Demand Model reported as \"NR\" because the paper cites MacKillop et al. (2009) for the five demand metrics but never names a specific curve-fitting equation. (2) Study analyzed three subgroups (gambling disorder, alcohol use disorder, healthy control) who all completed the GPT; no overall sample mean is reported. Section H means (Alpha, Q0, Breakpoint, Pmax) are averaged across all three subgroups. The alcohol use disorder subgroup's own commodity (alcohol, via a separate task in this paper) is not represented here.",
+    "commodity_category": "Behavioral (non-substance)"
   },
   {
     "study_id": "Weinsztok2024-alc",
@@ -14357,7 +14715,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": 0.99,
-    "notes": "Row populated using only the \"alone\" single-commodity purchase task value (α = .0088, R² = .99); the \"concurrent\" cross-price value (α = .0089, R² = .98, alcohol consumption when exercise was concurrently available) was not entered in the field."
+    "notes": "Row populated using only the \"alone\" single-commodity purchase task value (α = .0088, R² = .99); the \"concurrent\" cross-price value (α = .0089, R² = .98, alcohol consumption when exercise was concurrently available) was not entered in the field.",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Weinsztok2024-exer",
@@ -14397,7 +14756,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": 0.98,
-    "notes": "Row populated using only the \"alone\" single-commodity purchase task value (α = .0069, R² = .98); the \"concurrent\" cross-price value (α = .0084, R² = .95, exercise consumption when alcohol was concurrently available) was not entered in the field."
+    "notes": "Row populated using only the \"alone\" single-commodity purchase task value (α = .0069, R² = .98); the \"concurrent\" cross-price value (α = .0084, R² = .95, exercise consumption when alcohol was concurrently available) was not entered in the field.",
+    "commodity_category": "Behavioral (non-substance)"
   },
   {
     "study_id": "Wilson2016",
@@ -14437,7 +14797,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": 0.83,
     "mean_r2": 0.99,
-    "notes": "Study has three purchase conditions (real, potentially real, hypothetical); only hypothetical purchase task entered"
+    "notes": "Study has three purchase conditions (real, potentially real, hypothetical); only hypothetical purchase task entered",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Yoon2020-coc",
@@ -14477,7 +14838,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": 0.94,
-    "notes": "Mean Alpha and Mean Q0 weren't given as overall sample means anywhere in the text, calculated as weighted averages from the responder/non-responder subgroups in Table 1"
+    "notes": "Mean Alpha and Mean Q0 weren't given as overall sample means anywhere in the text, calculated as weighted averages from the responder/non-responder subgroups in Table 1",
+    "commodity_category": "Other substances"
   },
   {
     "study_id": "Yoon2021-coc",
@@ -14517,7 +14879,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": 0.93,
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Other substances"
   },
   {
     "study_id": "Yoon2021-cig",
@@ -14557,7 +14920,8 @@
     "mean_breakpoint": 4.6,
     "mean_pmax": 1.7,
     "mean_r2": 0.94,
-    "notes": "Alpha has two different reported means per drug (raw Table 1 vs. GLMM marginal mean Table 3), but used Table 1. \n\nk value reported as 2, but 0.5 was added only for the cross-drug α normalization, and not reported here"
+    "notes": "Alpha has two different reported means per drug (raw Table 1 vs. GLMM marginal mean Table 3), but used Table 1. \n\nk value reported as 2, but 0.5 was added only for the cross-drug α normalization, and not reported here",
+    "commodity_category": "Tobacco & Nicotine"
   },
   {
     "study_id": "Yoon2021-me",
@@ -14597,7 +14961,8 @@
     "mean_breakpoint": 179.4,
     "mean_pmax": 137.8,
     "mean_r2": 0.89,
-    "notes": "Alpha has two different reported means per drug (raw Table 1 vs. GLMM marginal mean Table 3), but used Table 1. \n\nk value reported as 2, but 0.5 was added only for the cross-drug α normalization, and not reported here"
+    "notes": "Alpha has two different reported means per drug (raw Table 1 vs. GLMM marginal mean Table 3), but used Table 1. \n\nk value reported as 2, but 0.5 was added only for the cross-drug α normalization, and not reported here",
+    "commodity_category": "Other substances"
   },
   {
     "study_id": "Yoon2025-con",
@@ -14637,7 +15002,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": 0.855,
-    "notes": "For the HPT, the average R2 values were 0.85 for legal condition and 0.86 for the illegal condition."
+    "notes": "For the HPT, the average R2 values were 0.85 for legal condition and 0.86 for the illegal condition.",
+    "commodity_category": "Health & Prevention"
   },
   {
     "study_id": "Yoon2025-emcon",
@@ -14677,7 +15043,8 @@
     "mean_breakpoint": "NR",
     "mean_pmax": "NR",
     "mean_r2": 0.91,
-    "notes": "The average R2 values for the HPT were 0.92 and 0.90 in the legal and illegal conditions,"
+    "notes": "The average R2 values for the HPT were 0.92 and 0.90 in the legal and illegal conditions,",
+    "commodity_category": "Health & Prevention"
   },
   {
     "study_id": "Yurasek2011-alc",
@@ -14717,7 +15084,8 @@
     "mean_breakpoint": 9.58,
     "mean_pmax": 4.79,
     "mean_r2": "NR",
-    "notes": "This study used Hursh et al. (1988) linear model instead of the exponential/exponentiated model, so I entered intensity (6.66) as Q0 since they're the same thing (consumption at $0). I didn't do the same for elasticity as Alpha though since it came out negative (-2.15), which I don't think fits how Alpha is supposed to work here"
+    "notes": "This study used Hursh et al. (1988) linear model instead of the exponential/exponentiated model, so I entered intensity (6.66) as Q0 since they're the same thing (consumption at $0). I didn't do the same for elasticity as Alpha though since it came out negative (-2.15), which I don't think fits how Alpha is supposed to work here",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Yurasek2013-alc",
@@ -14757,7 +15125,8 @@
     "mean_breakpoint": 9.29,
     "mean_pmax": 3.95,
     "mean_r2": 0.6,
-    "notes": "NR"
+    "notes": "NR",
+    "commodity_category": "Alcohol"
   },
   {
     "study_id": "Yurasek2023-can",
@@ -14797,6 +15166,7 @@
     "mean_breakpoint": 2.28,
     "mean_pmax": "NR",
     "mean_r2": "NR",
-    "notes": "Demand Model inferred from intro citation, not stated in methods. Paper names five standard indices (intensity, breakpoint, Omax, Pmax, elasticity) but only intensity, Omax, and breakpoint were actually analyzed; Pmax and elasticity were excluded, so those fields are No/NR."
+    "notes": "Demand Model inferred from intro citation, not stated in methods. Paper names five standard indices (intensity, breakpoint, Omax, Pmax, elasticity) but only intensity, Omax, and breakpoint were actually analyzed; Pmax and elasticity were excluded, so those fields are No/NR.",
+    "commodity_category": "Cannabis"
   }
 ]

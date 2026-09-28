@@ -6,7 +6,8 @@
   "use strict";
 
   var FILTER_FIELDS = [
-    { key: "commodity_domain", label: "Commodity Domain" },
+    { key: "commodity_category", label: "Category" },
+    { key: "commodity", label: "Commodity" },
     { key: "study_design", label: "Study Design" },
     { key: "demand_model", label: "Demand Model" },
     { key: "pub_type", label: "Pub Type" },
@@ -21,7 +22,7 @@
     { key: "year", label: "Year" },
     { key: "journal", label: "Journal" },
     { key: "commodity", label: "Commodity" },
-    { key: "commodity_domain", label: "Domain" },
+    { key: "commodity_category", label: "Category" },
     { key: "study_design", label: "Design" },
     { key: "demand_model", label: "Demand Model" },
     { key: "sample_size", label: "N" },
@@ -75,14 +76,18 @@
   function renderStats(data) {
     var mount = document.getElementById("stat-grid");
     var emptyState = document.getElementById("empty-state");
+    var dashboardSection = document.getElementById("dashboard-section");
     if (!mount) return;
 
     if (data.length === 0) {
       mount.style.display = "none";
+      if (dashboardSection) dashboardSection.style.display = "none";
       if (emptyState) emptyState.style.display = "block";
+      renderBrowseChips([], "browse-chips");
       return;
     }
     if (emptyState) emptyState.style.display = "none";
+    if (dashboardSection) dashboardSection.style.display = "block";
     mount.style.display = "grid";
 
     var years = data.map(function (d) { return d.year; }).filter(Boolean);
@@ -102,8 +107,41 @@
     });
 
     renderYearTrend(data, "trend-year");
-    renderBreakdown(data, "commodity_domain", "breakdown-domain");
+    renderBreakdown(data, "commodity_category", "breakdown-domain");
     renderCountryMap(data, "country-map");
+    renderBrowseChips(data, "browse-chips");
+  }
+
+  // Homepage "Browse by:" chips - the most common commodity domains,
+  // linking straight into a pre-filtered Explore page. Derived from the
+  // real data rather than a fixed taxonomy, since the coded commodities are
+  // free text and vary in how many distinct values show up.
+  function renderBrowseChips(data, mountId) {
+    var mount = document.getElementById(mountId);
+    if (!mount) return;
+    mount.innerHTML = "";
+    if (data.length === 0) return;
+
+    var counts = {};
+    data.forEach(function (row) {
+      var v = row.commodity;
+      if (v) counts[v] = (counts[v] || 0) + 1;
+    });
+    var top = Object.keys(counts)
+      .map(function (k) { return [k, counts[k]]; })
+      .sort(function (a, b) { return b[1] - a[1]; })
+      .slice(0, 5);
+    if (top.length === 0) return;
+
+    mount.appendChild(el("span", { class: "browse-label", text: "Browse by:" }));
+    top.forEach(function (entry) {
+      var link = el("a", {
+        class: "browse-chip",
+        href: assetUrl("/explore.html") + "?commodity=" + encodeURIComponent(entry[0]),
+        text: entry[0]
+      });
+      mount.appendChild(link);
+    });
   }
 
   // First published HPT study (Jacobs & Bickel, 1999) — always anchor the
@@ -333,6 +371,20 @@
       return;
     }
 
+    // Support deep links from the homepage: ?q=... prefills search,
+    // ?<filter_key>=... preselects a filter (e.g. from a "Browse by" chip).
+    var params = new URLSearchParams(window.location.search);
+    var qParam = (params.get("q") || "").trim();
+    if (qParam) {
+      state.search = qParam.toLowerCase();
+      var searchBox = document.getElementById("search-box");
+      if (searchBox) searchBox.value = qParam;
+    }
+    FILTER_FIELDS.forEach(function (f) {
+      var v = params.get(f.key);
+      if (v) state.filters[f.key] = v;
+    });
+
     buildFilterControls(data, state, applyAndRender);
     document.getElementById("search-box").addEventListener("input", function (e) {
       state.search = e.target.value.trim().toLowerCase();
@@ -364,9 +416,55 @@
       renderTableBody(filtered);
       document.getElementById("result-count").textContent =
         filtered.length + " of " + data.length + " studies";
+      renderFilterChips(state, applyAndRender);
     }
 
     applyAndRender();
+  }
+
+  function renderFilterChips(state, onChange) {
+    var mount = document.getElementById("filter-chips");
+    if (!mount) return;
+    mount.innerHTML = "";
+
+    var active = [];
+    if (state.search) active.push({ label: "Search: " + state.search, clear: function () {
+      state.search = "";
+      var box = document.getElementById("search-box");
+      if (box) box.value = "";
+    } });
+    FILTER_FIELDS.forEach(function (f) {
+      var v = state.filters[f.key];
+      if (v) active.push({ label: f.label + ": " + v, clear: function () {
+        state.filters[f.key] = "";
+        var select = document.querySelector('select[data-key="' + f.key + '"]');
+        if (select) select.value = "";
+      } });
+    });
+
+    if (active.length === 0) {
+      mount.style.display = "none";
+      return;
+    }
+    mount.style.display = "flex";
+
+    active.forEach(function (item) {
+      var chip = el("button", { class: "filter-chip", type: "button" });
+      chip.appendChild(document.createTextNode(item.label + " "));
+      chip.appendChild(el("span", { "aria-hidden": "true", text: "×" }));
+      chip.addEventListener("click", function () {
+        item.clear();
+        onChange();
+      });
+      mount.appendChild(chip);
+    });
+
+    var clearAll = el("button", { class: "filter-chip filter-chip-clear-all", type: "button", text: "Clear all" });
+    clearAll.addEventListener("click", function () {
+      active.forEach(function (item) { item.clear(); });
+      onChange();
+    });
+    mount.appendChild(clearAll);
   }
 
   function buildFilterControls(data, state, onChange) {
@@ -380,6 +478,7 @@
       options.forEach(function (opt) {
         select.appendChild(el("option", { value: opt, text: opt }));
       });
+      if (state.filters[f.key]) select.value = state.filters[f.key];
       select.addEventListener("change", function (e) {
         state.filters[f.key] = e.target.value;
         onChange();

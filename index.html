@@ -3,13 +3,65 @@ layout: default
 title: Home
 ---
 
-<h1>HPT Resource Index</h1>
-<p class="lede">
-  A public, searchable index of Hypothetical Purchase Task (HPT) demand studies —
-  covering study design, participants, price schedules, demand models, and the
-  behavioral economic indices each study reports. A project of
-  <a href="https://promiselabs.africa/" target="_blank" rel="noopener">PROMISE Labs Africa</a>.
-</p>
+<section class="hero">
+  <div class="hero-copy">
+    <h1>HPT Resource Index</h1>
+    <p class="hero-tagline">The research landscape of Hypothetical Purchase Tasks, in one place.</p>
+    <p class="lede">
+      A public, searchable index of Hypothetical Purchase Task (HPT) demand studies —
+      commodities, populations, countries, price schedules, demand models, and the
+      behavioral economic indices each study reports. A project of
+      <a href="https://promiselabs.africa/" target="_blank" rel="noopener">PROMISE Labs Africa</a>.
+    </p>
+
+    <form id="home-search-form" class="home-search" role="search" action="{{ '/explore.html' | relative_url }}">
+      <input type="search" id="home-search" name="q" placeholder="Search studies by commodity, population, country, author, journal…">
+      <button type="submit">Search</button>
+    </form>
+    <div id="browse-chips" class="browse-chips"></div>
+
+    <div class="hero-actions">
+      <a class="cta" href="{{ '/explore.html' | relative_url }}">Explore studies →</a>
+      <a class="cta cta-secondary" href="{{ '/about.html' | relative_url }}">About the index</a>
+    </div>
+  </div>
+
+  <div class="hero-visual" aria-hidden="true">
+    <p class="hero-visual-label">A typical hypothetical purchase task</p>
+    <svg viewBox="0 0 320 210" class="demand-curve-svg">
+      <text x="14" y="90" text-anchor="middle" transform="rotate(-90 14 90)" class="demand-curve-axis-label">Consumption</text>
+      <line x1="40" y1="10" x2="40" y2="170" class="demand-curve-axis"></line>
+      <line x1="40" y1="170" x2="300" y2="170" class="demand-curve-axis"></line>
+      <text x="30" y="14" text-anchor="end" class="demand-curve-tick">100</text>
+      <text x="30" y="55" text-anchor="end" class="demand-curve-tick">75</text>
+      <text x="30" y="96" text-anchor="end" class="demand-curve-tick">50</text>
+      <text x="30" y="137" text-anchor="end" class="demand-curve-tick">25</text>
+      <text x="30" y="174" text-anchor="end" class="demand-curve-tick">0</text>
+      <text x="60" y="188" text-anchor="middle" class="demand-curve-tick">0.1</text>
+      <text x="140" y="188" text-anchor="middle" class="demand-curve-tick">1</text>
+      <text x="220" y="188" text-anchor="middle" class="demand-curve-tick">10</text>
+      <text x="292" y="188" text-anchor="middle" class="demand-curve-tick">100</text>
+      <text x="170" y="204" text-anchor="middle" class="demand-curve-axis-label">Price (e.g., $)</text>
+      <path d="M55,15 C90,25 110,50 130,80 C150,108 165,132 190,148 C215,160 250,166 295,169
+               L295,170 L55,170 Z"
+            class="demand-curve-band"></path>
+      <path d="M55,15 C90,25 110,50 130,80 C150,108 165,132 190,148 C215,160 250,166 295,169"
+            class="demand-curve-line"></path>
+      <circle cx="55" cy="15" r="3" class="demand-curve-dot"></circle>
+      <circle cx="90" cy="30" r="3" class="demand-curve-dot"></circle>
+      <circle cx="130" cy="80" r="3" class="demand-curve-dot"></circle>
+      <circle cx="170" cy="122" r="3" class="demand-curve-dot"></circle>
+      <circle cx="215" cy="152" r="3" class="demand-curve-dot"></circle>
+      <circle cx="260" cy="164" r="3" class="demand-curve-dot"></circle>
+      <circle cx="295" cy="169" r="3" class="demand-curve-dot"></circle>
+    </svg>
+    <p class="hero-visual-caption">
+      HPTs estimate how consumption changes across a range of hypothetical
+      prices, allowing calculation of behavioral economic indices such as
+      intensity, breakpoint, and elasticity.
+    </p>
+  </div>
+</section>
 
 <div id="sample-banner" class="banner-sample" style="display:none;">
   Showing <strong>sample data</strong> for layout testing.
@@ -24,16 +76,26 @@ title: Home
   Check back soon, or <a href="{{ '/?sample=1' | relative_url }}">preview the dashboard with sample data</a>.</p>
 </div>
 
-<h2>Studies by year</h2>
-<div id="trend-year"></div>
-
-<h2>By commodity domain</h2>
-<div id="breakdown-domain"></div>
-
-<h2>By country</h2>
-<div class="map-wrap">
-  <div id="country-map"></div>
-</div>
-<p class="map-caption" style="display:none;"></p>
-
-<p><a class="cta" href="{{ '/explore.html' | relative_url }}">Explore all studies →</a></p>
+<section class="dashboard-section" id="dashboard-section" style="display:none;">
+  <div class="dashboard-heading">
+    <h2>The HPT literature at a glance</h2>
+    <a href="{{ '/explore.html' | relative_url }}">Explore all studies →</a>
+  </div>
+  <div class="dashboard-grid">
+    <div class="dashboard-card">
+      <h3>Studies by year</h3>
+      <div id="trend-year"></div>
+    </div>
+    <div class="dashboard-card">
+      <h3>By category</h3>
+      <div id="breakdown-domain"></div>
+    </div>
+    <div class="dashboard-card">
+      <h3>By country</h3>
+      <div class="map-wrap">
+        <div id="country-map"></div>
+      </div>
+      <p class="map-caption" style="display:none;"></p>
+    </div>
+  </div>
+</section>

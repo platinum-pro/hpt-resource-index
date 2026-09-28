@@ -7,3 +7,4 @@ vendor/
 ~$*
 scripts/.ne_110m_land.geojson
 scripts/.country-centroids-src.geojson
+scripts/__pycache__/

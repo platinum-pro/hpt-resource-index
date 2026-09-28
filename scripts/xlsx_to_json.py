@@ -17,6 +17,8 @@ from pathlib import Path
 
 import openpyxl
 
+from commodity_categories import COMMODITY_TO_CATEGORY
+
 ROOT = Path(__file__).resolve().parent.parent
 XLSX_PATH = ROOT / "HPT Resource Index.xlsx"
 JSON_PATH = ROOT / "data" / "data.json"
@@ -116,6 +118,26 @@ def normalize_casing(records):
                     r[field] = canonical[r[field]]
 
 
+def assign_commodity_category(records):
+    """Derives commodity_category from commodity via COMMODITY_TO_CATEGORY.
+    Not a real spreadsheet column -- computed here so it can't drift out of
+    sync with the commodity text. Anything not in the mapping (a new
+    commodity an RA has since coded) is left as None and flagged below.
+    """
+    unmapped = set()
+    for r in records:
+        commodity = r.get("commodity")
+        category = COMMODITY_TO_CATEGORY.get(commodity) if commodity else None
+        if commodity and category is None:
+            unmapped.add(commodity)
+        r["commodity_category"] = category
+    if unmapped:
+        print("WARNING: no commodity_category mapping for:")
+        for c in sorted(unmapped):
+            print(f"  - {c!r}")
+        print("Add these to scripts/commodity_categories.py and re-run.")
+
+
 def main():
     wb = openpyxl.load_workbook(XLSX_PATH, data_only=True)
     ws = wb.active
@@ -133,6 +155,7 @@ def main():
         records.append(record)
 
     normalize_casing(records)
+    assign_commodity_category(records)
 
     JSON_PATH.parent.mkdir(parents=True, exist_ok=True)
     with open(JSON_PATH, "w", encoding="utf-8") as f:
