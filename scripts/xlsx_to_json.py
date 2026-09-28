@@ -11,6 +11,7 @@ spreadsheet, update COLUMNS to match.
 """
 
 import json
+import re
 from collections import Counter
 from pathlib import Path
 
@@ -65,6 +66,16 @@ COLUMNS = [
 HEADER_ROW = 2
 FIRST_DATA_ROW = 3
 
+# Short categorical fields (used in filters/breakdown charts) where two
+# values that differ only in *where* whitespace falls -- "Leisure/entertainment"
+# vs "Leisure / entertainment" -- should still be treated as one category.
+# Free-text fields (notes, journal, population, ...) are left alone, since
+# collapsing their whitespace could touch meaningful content.
+WHITESPACE_INSENSITIVE_FIELDS = {
+    "pub_type", "open_access", "commodity", "commodity_domain", "study_design",
+    "participant_assignment", "region", "currency", "demand_model",
+}
+
 
 def coerce(value, value_type):
     if isinstance(value, str):
@@ -87,10 +98,12 @@ def normalize_casing(records):
     """
     string_fields = [key for _, key, value_type in COLUMNS if value_type is str]
     for field in string_fields:
+        insensitive = field in WHITESPACE_INSENSITIVE_FIELDS
         counts = Counter(r[field] for r in records if r.get(field))
         groups = {}
         for value, count in counts.items():
-            groups.setdefault(value.casefold(), []).append((value, count))
+            key = re.sub(r"\s+", "", value).casefold() if insensitive else value.casefold()
+            groups.setdefault(key, []).append((value, count))
         canonical = {}
         for variants in groups.values():
             if len(variants) > 1:

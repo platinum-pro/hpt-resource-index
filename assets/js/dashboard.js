@@ -229,15 +229,20 @@
     "cape verde": "Cabo Verde"
   };
 
-  function lookupCentroid(name) {
+  // Resolves a raw country string to the exact key used in
+  // HPT_COUNTRY_CENTROIDS (so alias/case variants of the same country -
+  // "England" and "United Kingdom" - count as one location), or returns the
+  // trimmed input unchanged if nothing matches.
+  function canonicalCountryName(name) {
     var table = window.HPT_COUNTRY_CENTROIDS || {};
-    if (!name) return null;
-    if (table[name]) return table[name];
-    var key = String(name).trim().toLowerCase();
+    var trimmed = String(name).trim();
+    if (!trimmed) return null;
+    if (table[trimmed]) return trimmed;
+    var key = trimmed.toLowerCase();
     var alias = COUNTRY_ALIASES[key];
-    if (alias && table[alias]) return table[alias];
+    if (alias && table[alias]) return alias;
     var matchKey = Object.keys(table).filter(function (k) { return k.toLowerCase() === key; })[0];
-    return matchKey ? table[matchKey] : null;
+    return matchKey || trimmed;
   }
 
   function projectLonLat(lat, lon) {
@@ -253,7 +258,14 @@
 
     var counts = {};
     data.forEach(function (row) {
-      if (row.country) counts[row.country] = (counts[row.country] || 0) + 1;
+      if (!row.country) return;
+      // A study can list multiple countries ("Canada; United States"); plot
+      // one dot per listed country rather than treating the whole string as
+      // a single (unmatched) location.
+      String(row.country).split(";").forEach(function (part) {
+        var c = canonicalCountryName(part);
+        if (c) counts[c] = (counts[c] || 0) + 1;
+      });
     });
     var countries = Object.keys(counts);
     if (countries.length === 0) {
@@ -269,10 +281,11 @@
         var svg = mount.querySelector("svg");
         if (!svg) return;
 
+        var table = window.HPT_COUNTRY_CENTROIDS || {};
         var unmatched = [];
 
         countries.forEach(function (country) {
-          var centroid = lookupCentroid(country);
+          var centroid = table[country];
           if (!centroid) {
             unmatched.push(country);
             return;
