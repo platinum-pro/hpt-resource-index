@@ -437,6 +437,13 @@ table.data-table th {
   white-space: nowrap;
 }
 
+.study-link {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.study-link:hover { text-decoration: underline; }
+
 .table-scroll {
   overflow-x: auto;
   border: 1px solid var(--line);

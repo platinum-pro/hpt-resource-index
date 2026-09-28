@@ -519,6 +519,18 @@
     thead.appendChild(tr);
   }
 
+  function isUsableLink(v) {
+    return !!v && v !== "NR" && v !== "N/A";
+  }
+
+  // Prefers the coded URL (usually a publisher landing page); falls back to
+  // a DOI resolver link when only the DOI was coded.
+  function studyUrl(row) {
+    if (isUsableLink(row.url)) return row.url;
+    if (isUsableLink(row.doi)) return "https://doi.org/" + row.doi;
+    return null;
+  }
+
   function renderTableBody(rows) {
     var tbody = document.getElementById("table-body");
     tbody.innerHTML = "";
@@ -526,7 +538,19 @@
       var tr = el("tr");
       TABLE_COLUMNS.forEach(function (col) {
         var val = row[col.key];
-        tr.appendChild(el("td", { text: val === null || val === undefined ? "" : val }));
+        var text = val === null || val === undefined ? "" : val;
+        if (col.key === "study_id") {
+          var link = studyUrl(row);
+          var td = el("td");
+          if (link) {
+            td.appendChild(el("a", { class: "study-link", href: link, target: "_blank", rel: "noopener", text: text }));
+          } else {
+            td.textContent = text;
+          }
+          tr.appendChild(td);
+        } else {
+          tr.appendChild(el("td", { text: text }));
+        }
       });
       tbody.appendChild(tr);
     });
