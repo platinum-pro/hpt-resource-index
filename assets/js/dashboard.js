@@ -171,7 +171,13 @@
     }
     var maxCount = series.reduce(function (m, p) { return Math.max(m, p[1]); }, 1);
 
-    var w = 760, h = 220, padL = 24, padR = 12, padT = 12, padB = 26;
+    // Match the viewBox width to the mount's actual rendered width (falling
+    // back to a sane default before layout/CSS has run) so x and y scale
+    // uniformly. A mismatched viewBox + preserveAspectRatio="none" used to
+    // stretch tick-label text non-uniformly whenever this chart rendered
+    // somewhere narrower than its original full-width home (e.g. inside the
+    // 3-up dashboard card), which is what made the year labels look smudged.
+    var w = mount.clientWidth || 320, h = 160, padL = 24, padR = 12, padT = 12, padB = 26;
     var innerW = w - padL - padR, innerH = h - padT - padB;
     var stepX = series.length > 1 ? innerW / (series.length - 1) : 0;
 
@@ -183,7 +189,10 @@
       " " + px(series.length - 1) + "," + (padT + innerH) +
       " " + px(0) + "," + (padT + innerH);
 
-    var tickEvery = Math.max(1, Math.ceil(series.length / 10));
+    // Roughly one tick per 60px of width so labels never crowd/overlap,
+    // regardless of how narrow the container is.
+    var maxTicks = Math.max(2, Math.floor(innerW / 60));
+    var tickEvery = Math.max(1, Math.ceil(series.length / maxTicks));
     var ticks = series
       .map(function (p, i) { return { i: i, year: p[0] }; })
       .filter(function (t) { return t.i % tickEvery === 0 || t.i === series.length - 1; });
@@ -198,7 +207,7 @@
     }).join("");
 
     mount.innerHTML =
-      '<svg viewBox="0 0 ' + w + " " + h + '" class="trend-chart" preserveAspectRatio="none">' +
+      '<svg viewBox="0 0 ' + w + " " + h + '" class="trend-chart">' +
       '<polygon points="' + areaPoints + '" class="trend-area"></polygon>' +
       '<polyline points="' + linePoints + '" class="trend-line"></polyline>' +
       dots + tickLabels +
