@@ -91,10 +91,14 @@
     mount.style.display = "grid";
 
     var years = data.map(function (d) { return d.year; }).filter(Boolean);
+    var totalParticipants = data.reduce(function (sum, d) {
+      return sum + (typeof d.sample_size === "number" ? d.sample_size : 0);
+    }, 0);
+
     var stats = [
       { label: "Studies indexed", value: data.length },
       { label: "Commodities", value: uniqueSorted(data, "commodity").length },
-      { label: "Demand models", value: uniqueSorted(data, "demand_model").length },
+      { label: "Total participants", value: totalParticipants.toLocaleString("en-US") },
       { label: "Year range", value: years.length ? Math.min.apply(null, years) + "–" + Math.max.apply(null, years) : "—" }
     ];
 
