@@ -89,6 +89,11 @@ CATEGORIES = {
         "Economy hotel room",
         "Midscale hotel room",
         "Upscale hotel room",
+        # Smartwatch brand demand (Schwartz2022) -- kept as distinct brand
+        # strings rather than a generic "Smartwatch" since the study's own
+        # finding was brand-loyalty-driven demand differences.
+        "Apple Watch",
+        "Fitbit Versa",
     ],
     "Health & Prevention": [
         "COVID-19 vaccine",
