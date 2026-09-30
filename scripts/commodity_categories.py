@@ -25,7 +25,6 @@ CATEGORIES = {
         "E-cigarette liquid (mL)",
         "E-cigarettes",
         "E-cigarettes puffs",
-        "Little cigars/cigarillos",
         "Menthol Cigarettes",
         "Nicotine",
         "Nicotine Lozenges",
@@ -40,11 +39,8 @@ CATEGORIES = {
         "Cannabis",
         "Cannabis concentrates",
         "Cannabis flower",
-        "Cannabis/marijuana",
         "Illegal Cannabis",
         "Indica cannabis",
-        "Marijuana",
-        "Marijuana flower",
         "Marijuana puffs",
         "Sativa cannabis",
     ],
@@ -55,7 +51,6 @@ CATEGORIES = {
         "Opiate pain relievers",
         "Opioids",
         "Standard opioid pills",
-        "opiods",  # data-entry typo for "opioids", kept as its own commodity value
     ],
     "Other substances": [
         "Anabolic-androgenic steroids (AAS)",
@@ -77,7 +72,6 @@ CATEGORIES = {
         "Potato chips",
         "Snack food",
         "Soda",
-        "Soft drink",
         "Water",
     ],
     "Leisure & Entertainment": [

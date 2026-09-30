@@ -17,6 +17,7 @@ from pathlib import Path
 
 import openpyxl
 
+from commodity_aliases import COMMODITY_ALIASES
 from commodity_categories import COMMODITY_TO_CATEGORY
 from demand_model_aliases import DEMAND_MODEL_ALIASES
 
@@ -131,6 +132,18 @@ def apply_demand_model_aliases(records):
             r["demand_model"] = DEMAND_MODEL_ALIASES[value]
 
 
+def apply_commodity_aliases(records):
+    """Merges confident-only commodity wording variants -- see
+    scripts/commodity_aliases.py for what's covered and why. Applied before
+    assign_commodity_category so the category lookup sees the canonical
+    spelling, not the raw one.
+    """
+    for r in records:
+        value = r.get("commodity")
+        if value in COMMODITY_ALIASES:
+            r["commodity"] = COMMODITY_ALIASES[value]
+
+
 def assign_commodity_category(records):
     """Derives commodity_category from commodity via COMMODITY_TO_CATEGORY.
     Not a real spreadsheet column -- computed here so it can't drift out of
@@ -168,6 +181,7 @@ def main():
         records.append(record)
 
     apply_demand_model_aliases(records)
+    apply_commodity_aliases(records)
     normalize_casing(records)
     assign_commodity_category(records)
 
