@@ -92,6 +92,7 @@ CATEGORIES = {
     ],
     "Health & Prevention": [
         "COVID-19 vaccine",
+        "HIV vaccine",
         "Condoms",
         "Disease-modifying therapy (DMT)",
         "Disease-modifying therapy (DMT) for multiple sclerosis",
