@@ -81,6 +81,14 @@ CATEGORIES = {
         "Pay-Per-View Movie, Show, or Event",
         "Social media time",
         "Vacation Package",
+        # Hotel-tier accommodation demand -- distinct commodity strings per
+        # tier (meaningfully different products/price points, same pattern
+        # as keeping cigarette/cannabis sub-types distinct). Separate from
+        # the existing plain "Hotel rooms" entry (Dolan2020), which used a
+        # hotel room as a substitute-good proxy in an unrelated study.
+        "Economy hotel room",
+        "Midscale hotel room",
+        "Upscale hotel room",
     ],
     "Health & Prevention": [
         "COVID-19 vaccine",
