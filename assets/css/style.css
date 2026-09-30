@@ -216,7 +216,7 @@ p.lede { color: var(--muted); max-width: 65ch; }
 
 .hero-visual-label {
   margin: 0 0 4px;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: var(--muted);
   text-align: center;
 }
